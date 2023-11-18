@@ -6,7 +6,7 @@
 
     <link href="/css/asciidoctor-default.css" rel="stylesheet" type="text/css" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/site.css" rel="stylesheet" type="text/css" />
+    <link href="/css/site.css?version=20231214" rel="stylesheet" type="text/css" />
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -28,6 +28,7 @@
                         <li><a href="/charter.html">Charter</a></li>
                         <li><a href="/team-list.html">Team</a></li>
                         <li><a href="/support.html">Support &amp; Help</a></li>
+                        <li><a href="/processes.html">Retirement Processes</a>
                         <li><a target="_blank" href="https://cwiki.apache.org/confluence/display/LOGGING/Home">Wiki</a>
                         <li><a href="/what-is-logging.html">What is logging?</a>
                         </li>
@@ -40,15 +41,15 @@
                     <ul class="dropdown-menu">
                         
                             
-                            <li><a href="/log4j/2.x/index.html">Apache Log4j®</a></li>
+                            <li><a href="/log4j">Apache Log4j®</a></li>
                             
                         
                             
-                            <li><a href="/log4j/kotlin/index.html">Apache Log4j® for Kotlin</a></li>
+                            <li><a href="/log4j/kotlin">Apache Log4j® Kotlin</a></li>
                             
                         
                             
-                            <li><a href="/log4j/scala/index.html">Apache Log4j® for Scala</a></li>
+                            <li><a href="/log4j/scala">Apache Log4j® Scala</a></li>
                             
                         
                             
@@ -56,11 +57,15 @@
                             
                         
                             
-                            <li><a href="/chainsaw/2.x/index.html">Apache chainsaw</a></li>
+                            <li><a href="/chainsaw">Apache Chainsaw</a></li>
                             
                         
                             
-                            <li><a href="/log4j-audit/latest/index.html">Apache Log4j® Audit</a></li>
+                            <li><a href="/log4j-audit/latest">Apache Log4j® Audit</a></li>
+                            
+                        
+                            
+                            <li><a href="https://flume.apache.org">Apache Flume</a></li>
                             
                         
                             
@@ -96,11 +101,13 @@
                             
                         
                             
-                            <li><a href="/log4j/1.2/index.html">Apache Log4j® 1.x</a></li>
+                        
+                            
+                            <li><a href="/log4j/1.x">Apache Log4j® 1</a></li>
                             
                         
                             
-                            <li><a href="/log4j/extras/index.html">Apache log4j® 1 extras</a></li>
+                            <li><a href="/log4j/extras">Apache Log4j® 1 Extras</a></li>
                             
                         
                             
@@ -123,7 +130,9 @@
                     </ul>
                 </li>
             </ul>
-            
+            <ul class="nav">
+                <li><a href="/xml/ns">XML Schemas</a></li>
+            </ul>
             <ul class="nav pull-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apache<b class="caret"></b></a>
@@ -151,60 +160,61 @@
   <p>The Apache Logging Services project creates and maintains open-source software related to the logging of
     application behavior and released at no charge to the public.</p>
 </div>
+
+
+<div class="latest-post">
+    
+    <div class="latest-post-date">18 Dec 2023</div>
+    <div class="latest-post-news"><a href="/blog/2023/12/18/20-years-of-innovation.html">Celebrating Two Decades of Innovation with Apache Log4j</a></div>
+</div>
+
+
 <div class="projects">
+  <h3>Logging Frameworks</h3>
+
   
     
     <div class="project">
       <h2>Apache Log4j®</h2>
-      <p>Log4j 2 provides both a portable logging API and implementation for Java with significant improvements over its predecessor, Log4j 1.x.</p>
-      <p><a target="_blank" class="btn" href="/log4j/2.x/index.html">Project site &raquo;</a></p>
+      <p>A versatile, industrial-grade Java logging framework composed of an API, its implementation, and components to assist the deployment for various use cases.</p>
+      <p><a target="_blank" class="btn" href="/log4j">Project site &raquo;</a></p>
     </div>
     
   
     
     <div class="project">
-      <h2>Apache Log4j® for Kotlin</h2>
-      <p>Kotlin API for Log4j 2.</p>
-      <p><a target="_blank" class="btn" href="/log4j/kotlin/index.html">Project site &raquo;</a></p>
+      <h2>Apache Log4j® Kotlin</h2>
+      <p>A Kotlin-friendly interface to log against the Log4j® API.</p>
+      <p><a target="_blank" class="btn" href="/log4j/kotlin">Project site &raquo;</a></p>
     </div>
     
   
     
     <div class="project">
-      <h2>Apache Log4j® for Scala</h2>
-      <p>Scala API for Log4j 2.</p>
-      <p><a target="_blank" class="btn" href="/log4j/scala/index.html">Project site &raquo;</a></p>
+      <h2>Apache Log4j® Scala</h2>
+      <p>A Scala-friendly interface to log against the Log4j® API.</p>
+      <p><a target="_blank" class="btn" href="/log4j/scala">Project site &raquo;</a></p>
     </div>
     
   
     
     <div class="project">
       <h2>Apache log4cxx</h2>
-      <p>Apache log4cxx is a logging framework for C++ patterned after log4j.</p>
+      <p>A logging framework for C++ patterned after Log4j®.</p>
       <p><a target="_blank" class="btn" href="/log4cxx">Project site &raquo;</a></p>
     </div>
     
   
     
-    <div class="project">
-      <h2>Apache chainsaw</h2>
-      <p>A GUI based log viewer. Chainsaw is a companion application to log4j written by members of the log4j development community.</p>
-      <p><a target="_blank" class="btn" href="/chainsaw/2.x/index.html">Project site &raquo;</a></p>
-    </div>
-    
   
     
-    <div class="project">
-      <h2>Apache Log4j® Audit</h2>
-      <p>Audit logging framework built upon Apache Log4j® 2.</p>
-      <p><a target="_blank" class="btn" href="/log4j-audit/latest/index.html">Project site &raquo;</a></p>
-    </div>
+  
     
   
     
     <div class="project">
       <h2>Apache Log4Net</h2>
-      <p>A port of the original Apache log4j framework to the Microsoft .NET runtime.</p>
+      <p>A port of the Log4j® to the Microsoft .NET runtime.</p>
       <p><a target="_blank" class="btn" href="/log4net">Project site &raquo;</a></p>
     </div>
     
@@ -215,29 +225,93 @@
   
     
   
-    <div class="project">
-      <h2>Dormant Projects</h2>
-      <p>Logging Services projects that are no longer actively maintained.</p>
-      <p><a class="btn" href="dormant.html">See dormant projects &raquo;</a></p>
-    </div>
-</div>
 
+  <h3>Advanced Log Processing</h3>
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+    <div class="project">
+      <h2>Apache Chainsaw</h2>
+      <p>A GUI-based log viewer intended as a companion to Log4j®.</p>
+      <p><a target="_blank" class="btn" href="/chainsaw">Project site &raquo;</a></p>
     </div>
     
+  
+    
+    <div class="project">
+      <h2>Apache Log4j® Audit</h2>
+      <p>Audit logging framework built upon Apache Log4j®.</p>
+      <p><a target="_blank" class="btn" href="/log4j-audit/latest">Project site &raquo;</a></p>
+    </div>
+    
+  
+    
+    <div class="project">
+      <h2>Apache Flume</h2>
+      <p>Distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.</p>
+      <p><a target="_blank" class="btn" href="https://flume.apache.org">Project site &raquo;</a></p>
+    </div>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
+  <h3>Others</h3>
+  <div class="project">
+    <h2>Dormant Projects</h2>
+    <p>Logging Services projects that are no longer actively maintained.</p>
+    <p><a class="btn" href="dormant.html">See dormant projects &raquo;</a></p>
+  </div>
+</div>
+
+    </div>    
+</div>
+
+
 <div class="footer">
+    <div class="container">
         <p>
-            Copyright © 2017-2023 <a href="https://www.apache.org" target="external">The Apache Software Foundation</a>.
+            Copyright © 2017-2024 <a href="https://www.apache.org" target="external">The Apache Software Foundation</a>.
             Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0"
             target="external">Apache Software License, Version 2.0</a> Please read our <a href="https://privacy.apache.org/policies/privacy-policy-public.html">privacy policy</a>.
         </p><p>
-            Apache, chainsaw, log4cxx, Log4j, Log4net, log4php and the Apache 
+            Apache, Chainsaw, log4cxx, Log4j, Log4net, log4php and the Apache 
             feather logo are trademarks or registered trademarks of The Apache 
             Software Foundation.
             Oracle and Java are registered trademarks
             of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
         </p>
+    </div>
 </div>
-
-</div>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '42']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://analytics.apache.org/matomo.php?idsite=42&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 </body>
 </html>

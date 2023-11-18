@@ -6,7 +6,7 @@
 
     <link href="/css/asciidoctor-default.css" rel="stylesheet" type="text/css" />
     <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="/css/site.css" rel="stylesheet" type="text/css" />
+    <link href="/css/site.css?version=20231214" rel="stylesheet" type="text/css" />
 
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -28,6 +28,7 @@
                         <li><a href="/charter.html">Charter</a></li>
                         <li><a href="/team-list.html">Team</a></li>
                         <li><a href="/support.html">Support &amp; Help</a></li>
+                        <li><a href="/processes.html">Retirement Processes</a>
                         <li><a target="_blank" href="https://cwiki.apache.org/confluence/display/LOGGING/Home">Wiki</a>
                         <li><a href="/what-is-logging.html">What is logging?</a>
                         </li>
@@ -40,15 +41,15 @@
                     <ul class="dropdown-menu">
                         
                             
-                            <li><a href="/log4j/2.x/index.html">Apache Log4j®</a></li>
+                            <li><a href="/log4j">Apache Log4j®</a></li>
                             
                         
                             
-                            <li><a href="/log4j/kotlin/index.html">Apache Log4j® for Kotlin</a></li>
+                            <li><a href="/log4j/kotlin">Apache Log4j® Kotlin</a></li>
                             
                         
                             
-                            <li><a href="/log4j/scala/index.html">Apache Log4j® for Scala</a></li>
+                            <li><a href="/log4j/scala">Apache Log4j® Scala</a></li>
                             
                         
                             
@@ -56,11 +57,15 @@
                             
                         
                             
-                            <li><a href="/chainsaw/2.x/index.html">Apache chainsaw</a></li>
+                            <li><a href="/chainsaw">Apache Chainsaw</a></li>
                             
                         
                             
-                            <li><a href="/log4j-audit/latest/index.html">Apache Log4j® Audit</a></li>
+                            <li><a href="/log4j-audit/latest">Apache Log4j® Audit</a></li>
+                            
+                        
+                            
+                            <li><a href="https://flume.apache.org">Apache Flume</a></li>
                             
                         
                             
@@ -96,11 +101,13 @@
                             
                         
                             
-                            <li><a href="/log4j/1.2/index.html">Apache Log4j® 1.x</a></li>
+                        
+                            
+                            <li><a href="/log4j/1.x">Apache Log4j® 1</a></li>
                             
                         
                             
-                            <li><a href="/log4j/extras/index.html">Apache log4j® 1 extras</a></li>
+                            <li><a href="/log4j/extras">Apache Log4j® 1 Extras</a></li>
                             
                         
                             
@@ -123,7 +130,9 @@
                     </ul>
                 </li>
             </ul>
-            
+            <ul class="nav">
+                <li><a href="/xml/ns">XML Schemas</a></li>
+            </ul>
             <ul class="nav pull-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Apache<b class="caret"></b></a>
@@ -182,7 +191,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ralph Goers</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">rgoers at apache.org</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Log4j2, Log4j-Audit</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Log4j2, Log4j-Audit, Flume</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Gary Gregory</p></td>
@@ -218,7 +227,7 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">Christian Grobmeier</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">grobmeier at apache.org</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Log4jphp</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Log4j, Log4j2, Log4php, Chainsaw</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Ron Grabowski</p></td>
@@ -273,6 +282,36 @@
 <td class="tableblock halign-left valign-top"><p class="tableblock">pkarwasz at apache.org</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Log4j2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Tristan Stevens</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">tristan at apache.org</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flume</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Mike Percy</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">mpercy at apache.org</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flume</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Juhani Connolly</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">juhanic at apache.org</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flume</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Balázs Donát Bessenyei</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">bessbd at apache.org</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">PMC Member</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Flume</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jan Friedrich</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">freeandnil at apache.org</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Committer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Log4net</p></td>
 </tr>
 </tbody>
 </table>
@@ -404,22 +443,40 @@ in the last few years. Inactive members are welcome to continue participating at
 </div>
 </div>
 </div>
-    </div>
-    
+    </div>    
+</div>
+
+
 <div class="footer">
+    <div class="container">
         <p>
-            Copyright © 2017-2023 <a href="https://www.apache.org" target="external">The Apache Software Foundation</a>.
+            Copyright © 2017-2024 <a href="https://www.apache.org" target="external">The Apache Software Foundation</a>.
             Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0"
             target="external">Apache Software License, Version 2.0</a> Please read our <a href="https://privacy.apache.org/policies/privacy-policy-public.html">privacy policy</a>.
         </p><p>
-            Apache, chainsaw, log4cxx, Log4j, Log4net, log4php and the Apache 
+            Apache, Chainsaw, log4cxx, Log4j, Log4net, log4php and the Apache 
             feather logo are trademarks or registered trademarks of The Apache 
             Software Foundation.
             Oracle and Java are registered trademarks
             of Oracle and/or its affiliates. Other names may be trademarks of their respective owners.
         </p>
+    </div>
 </div>
-
-</div>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  _paq.push(["disableCookies"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://analytics.apache.org/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '42']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://analytics.apache.org/matomo.php?idsite=42&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
 </body>
 </html>

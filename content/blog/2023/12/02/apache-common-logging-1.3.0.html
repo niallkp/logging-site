@@ -154,48 +154,114 @@
 
 <div class="container">
     <div class="content">
-        <h1 id="charter">Charter</h1>
+      <div class="hero-unit">
+      
+        
+        <h1>Upgrade to Apache Commons Logging 1.3.0</h1>
+        <p>Instructions to upgrade application to Apache Commons Logging 1.3.0.</p>
+      </div>
+      <time itemprop="datePublished" datetime="2023-12-02">
+        02 Dec 2023
+      </time>
+      
+      <div itemprop="text"><h1 id="apache-commons-logging">Apache Commons Logging</h1>
 
-<p>On December 17th, 2003, the Apache Board voted to establish the Apache Logging Services Project.</p>
+<p><a href="https://commons.apache.org/proper/commons-logging/">Apache Commons Logging</a> (JCL) is one of the oldest Java logging API
+available.
+Released for the first time in 2002, it immediately saw a widespread adoption in the Java community.</p>
 
-<p>The following is an extract from the minutes of the meeting of the board of directors. You can read the full minutes <a href="http://www.apache.org/foundation/records/minutes/2003/board_minutes_2003_12_17.txt">here</a>.</p>
+<p>While newer APIs, like SLF4J and our own Log4j API, appeared over time, even in 2023 it is hard to find an application stack
+that does not depend on JCL.
+According to Sonatype, Apache Commons Logging is used in <a href="https://central.sonatype.com/artifact/commons-logging/commons-logging">over 1 million artifacts</a>,
+while the second place is taken by SLF4J with <a href="https://central.sonatype.com/artifact/org.slf4j/slf4j-api">almost 40 thousand artifacts</a>.</p>
 
-<blockquote>
-  <h3 id="a-establishment-of-the-apache-logging-services-project">A. Establishment of the Apache Logging Services Project</h3>
+<h2 id="version-130">Version 1.3.0</h2>
 
-  <p><strong>WHEREAS,</strong> the Board of Directors deems it to be in the best interests of the Foundation and consistent with the Foundation’s purpose to establish a Project Management Committee charged with the creation and maintenance of open-source software related to the logging of application behavior, for distribution at no charge to the public.</p>
+<p>After more than 9 years since its previous release (version 1.2 released in July 2014), Apache Commons Logging released
+a new 1.3.0 version today (cf. <a href="https://lists.apache.org/thread/wx6v7wwhbnk64nx708hszctzv8fdsvdl">announcement</a>).
+Among the most prominent changes, the new version:</p>
 
-  <p><strong>NOW, THEREFORE, BE IT RESOLVED,</strong> that a Project Management Committee (PMC), to be known as the “Apache Logging Services PMC,” be and hereby is established pursuant to Bylaws of the Foundation; and be it further</p>
+<ul>
+  <li>forwards logging to the Log4j API out-of-the-box (if present),</li>
+  <li>also supports forwarding to SLF4J,</li>
+  <li>adds support for the Java Platform Module System (JPMS) with the module name <code class="language-plaintext highlighter-rouge">org.apache.commons.logging</code>.</li>
+</ul>
 
-  <p><strong>RESOLVED,</strong> that the Apache Logging Services PMC be and hereby is responsible for the creation and maintenance of software for managing the logging of application behavior, and for related software components, based on software licensed to the Foundation; and be it further</p>
+<h2 id="upgrade-instructions-log4j-corelogback">Upgrade instructions (Log4j Core/Logback)</h2>
 
-  <p><strong>RESOLVED,</strong> that the office of “Vice President, Apache Logging Services” be and hereby is created, the person holding such office to serve at the direction of the Board of Directors as the chair of the Apache Logging Services PMC, and to have primary responsibility for management of the projects within the scope of responsibility of the Apache Logging Services PMC; and be it further</p>
+<p>The upgrade path for users of the Log4j Core and Logback logging backends is easy.
+The first step is upgrading <code class="language-plaintext highlighter-rouge">commons-logging</code>.
+In Maven this can be done using dependency management.</p>
 
-  <p><strong>RESOLVED,</strong> that the persons listed immediately below be and hereby are appointed to serve as the initial members of the Apache Logging Services PMC:</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dependencyManagement&gt;</span>
+    <span class="nt">&lt;dependencies&gt;</span>
+        <span class="nt">&lt;dependency&gt;</span>
+            <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>
+            <span class="nt">&lt;version&gt;</span>1.3.0<span class="nt">&lt;/version&gt;</span>
+        <span class="nt">&lt;/dependency&gt;</span>
+    <span class="nt">&lt;/dependencies&gt;</span>
+<span class="nt">&lt;/dependencyManagement&gt;</span>
+</code></pre></div></div>
 
-  <ul>
-    <li>Scott Deboy</li>
-    <li>Ceki Gülcü</li>
-    <li>Jacob Kjome</li>
-    <li>Yoav Shapira</li>
-    <li>Paul Smith</li>
-    <li>Mark Womack</li>
-  </ul>
+<p>The second step consists in removing obsolete dependencies.
+Since version 1.2 only supported old generation logging backends out-of-the-box (<a href="https//logging.apache.org/log4j/1.2/">Log4j 1.x</a>,
+<a href="https//avalon.apache.org">Avalon</a> and <a href="https://javalogging.sourceforge.net">Lumberjack</a>), the Java community developed
+many <code class="language-plaintext highlighter-rouge">LogFactory</code> implementations and complete Apache Commons Logging replacements:</p>
 
-  <p><strong>NOW, THEREFORE, BE IT FURTHER RESOLVED,</strong> that Mr. Ceki Gülcü be and hereby is appointed to the office of Vice President, Apache Logging Services, to serve in accordance with and subject to the direction of the Board of Directors and the Bylaws of the Foundation until death, resignation, retirement, removal or disqualification, or until a successor is appointed; and be it further</p>
+<ul>
+  <li><a href="https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j"><code class="language-plaintext highlighter-rouge">org.slf4j:jcl-over-slf4j</code></a> (replacement),</li>
+  <li><a href="https://mvnrepository.com/artifact/org.springframework/spring-jcl"><code class="language-plaintext highlighter-rouge">org.springframework:spring-jcl</code></a> (replacement),</li>
+  <li>our own <a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-jcl"><code class="language-plaintext highlighter-rouge">org.apache.logging.log4j:log4j-jcl</code></a>
+(<code class="language-plaintext highlighter-rouge">LogFactory</code> implementation).</li>
+</ul>
 
-  <p><strong>RESOLVED,</strong> that the initial Apache Logging Services PMC be and hereby is tasked with the creation of a set of bylaws intended to encourage open development and increased participation in the Apache Logging Services Project; and be it further</p>
+<p>These artifacts can be <strong>safely</strong> removed from your dependency stack.
+For JPMS users this operation is even <strong>required</strong>.</p>
 
-  <p><strong>RESOLVED,</strong> that the initial Logging Services PMC be and hereby is tasked with the migration and rationalization of the log4j Apache Jakarta subproject; and be it further</p>
+<p>To do so Maven users can use exclusions:</p>
 
-  <p><strong>RESOLVED,</strong> that the initial Logging Services PMC be and hereby is tasked with the migration and integration of the sister projects, namely but not exclusively, Log4Perl, Log4Net, Log4Cxx (c++), Log4CPlus, Log4PHP and Log4plsql, subject to the will and approval of the respective project owners and communities.</p>
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dependency&gt;</span>
+    <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+    <span class="nt">&lt;artifactId&gt;</span>spring-jcl<span class="nt">&lt;/artifactId&gt;</span>
+    <span class="nt">&lt;exclusions&gt;</span>
+        <span class="nt">&lt;exclusion&gt;</span>
+            <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>spring-jcl<span class="nt">&lt;/artifactId&gt;</span>
+        <span class="nt">&lt;/exclusion&gt;</span>
+    <span class="nt">&lt;/exclusions&gt;</span>
+<span class="nt">&lt;/dependency&gt;</span>
+</code></pre></div></div>
 
-  <p>This was passed by Unanimous Vote.</p>
-</blockquote>
+<p>and to prevent regressions, add those dependencies to a <a href="https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html"><code class="language-plaintext highlighter-rouge">bannedDependencies</code> Maven Enforcer rule</a>.</p>
 
-    </div>    
+<h2 id="upgrade-instructions-log4j-1xreload4j-users">Upgrade instructions (Log4j 1.x/Reload4j users)</h2>
+
+<p>For users that use Log4j 1.x or Reload4j as logging backend the upgrade is more complicated: version 1.3.0 disabled the Log4j 1.x backend by default.</p>
+
+<p>Log4j 1.x/Reload4j users are:</p>
+
+<ul>
+  <li>encouraged to migrate to Log4j 2.x Core (cf. <a href="https://logging.apache.org/log4j/2.x/manual/migration.html">migration guide</a>) or Logback,</li>
+  <li>if that is not possible (or if a transitional period is required) they need to add a <code class="language-plaintext highlighter-rouge">commons-logging.properties</code> file to their applications containing:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>org.apache.commons.logging.Log = org.apache.commons.logging.impl.Log4JLogger
+</code></pre></div></div>
+
+<h2 id="jpms-users">JPMS users</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">org.apache.commons.logging</code> JPMS module has an <strong>optional</strong> dependency on the Log4j API.
+In order for the JVM to automatically add the <code class="language-plaintext highlighter-rouge">org.apache.logging.log4j</code> module to your application’s runtime, you need to add:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>requires org.apache.logging.log4j;
+</code></pre></div></div>
+
+<p>to your application’s module descriptor.</p>
+
 </div>
-
+    </div>
+</div>
 
 <div class="footer">
     <div class="container">

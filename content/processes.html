@@ -154,44 +154,125 @@
 
 <div class="container">
     <div class="content">
-        <h1 id="charter">Charter</h1>
+        <h1 id="project-processes">Project Processes</h1>
 
-<p>On December 17th, 2003, the Apache Board voted to establish the Apache Logging Services Project.</p>
+<h3 id="apache-logging-services-project-processeschecklists">Apache Logging Services Project Processes/Checklists</h3>
 
-<p>The following is an extract from the minutes of the meeting of the board of directors. You can read the full minutes <a href="http://www.apache.org/foundation/records/minutes/2003/board_minutes_2003_12_17.txt">here</a>.</p>
+<p>Here we describe some of the processes we use.</p>
 
-<blockquote>
-  <h3 id="a-establishment-of-the-apache-logging-services-project">A. Establishment of the Apache Logging Services Project</h3>
+<ul>
+  <li>Retire a subproject or component</li>
+  <li>Reactivate a subproject or component</li>
+</ul>
 
-  <p><strong>WHEREAS,</strong> the Board of Directors deems it to be in the best interests of the Foundation and consistent with the Foundation’s purpose to establish a Project Management Committee charged with the creation and maintenance of open-source software related to the logging of application behavior, for distribution at no charge to the public.</p>
+<h3 id="retire-a-subproject-or-component">Retire a subproject or component</h3>
 
-  <p><strong>NOW, THEREFORE, BE IT RESOLVED,</strong> that a Project Management Committee (PMC), to be known as the “Apache Logging Services PMC,” be and hereby is established pursuant to Bylaws of the Foundation; and be it further</p>
+<p>The process starts by a format vote by the PMC on the main development mailing list.
+Basically, we have to announce it and make resources read-only.</p>
 
-  <p><strong>RESOLVED,</strong> that the Apache Logging Services PMC be and hereby is responsible for the creation and maintenance of software for managing the logging of application behavior, and for related software components, based on software licensed to the Foundation; and be it further</p>
+<ul>
+  <li>Version Control</li>
+  <li>Issue Tracker</li>
+  <li>Announcement</li>
+  <li>Build Jobs</li>
+  <li>Landing Page</li>
+  <li>Homepage</li>
+  <li>Releases</li>
+</ul>
 
-  <p><strong>RESOLVED,</strong> that the office of “Vice President, Apache Logging Services” be and hereby is created, the person holding such office to serve at the direction of the Board of Directors as the chair of the Apache Logging Services PMC, and to have primary responsibility for management of the projects within the scope of responsibility of the Apache Logging Services PMC; and be it further</p>
+<h4 id="retire-version-control">Retire: Version Control</h4>
 
-  <p><strong>RESOLVED,</strong> that the persons listed immediately below be and hereby are appointed to serve as the initial members of the Apache Logging Services PMC:</p>
+<p>Most of our source code is in git, only “site” and “sandbox” use GIT. 
+We place a marker RETIRED_PROJECT file on the top level.
+Add a note at the top of a README file as well so it is immediately visible 
+to people browsing the GitHub mirror. Include a link to this page for a 
+possible future reactivation and a link to the vote result. <br />
+Ask infra to make the repository read-only.</p>
 
-  <ul>
-    <li>Scott Deboy</li>
-    <li>Ceki Gülcü</li>
-    <li>Jacob Kjome</li>
-    <li>Yoav Shapira</li>
-    <li>Paul Smith</li>
-    <li>Mark Womack</li>
-  </ul>
+<h4 id="retire-issue-tracker">Retire: Issue Tracker</h4>
 
-  <p><strong>NOW, THEREFORE, BE IT FURTHER RESOLVED,</strong> that Mr. Ceki Gülcü be and hereby is appointed to the office of Vice President, Apache Logging Services, to serve in accordance with and subject to the direction of the Board of Directors and the Bylaws of the Foundation until death, resignation, retirement, removal or disqualification, or until a successor is appointed; and be it further</p>
+<p>If the subproject/component has its own issue tracker, we have to close that. 
+It is enough to make it read-only, so these information are longer available.</p>
 
-  <p><strong>RESOLVED,</strong> that the initial Apache Logging Services PMC be and hereby is tasked with the creation of a set of bylaws intended to encourage open development and increased participation in the Apache Logging Services Project; and be it further</p>
+<h4 id="retire-mailing-list">Retire: Mailing List</h4>
 
-  <p><strong>RESOLVED,</strong> that the initial Logging Services PMC be and hereby is tasked with the migration and rationalization of the log4j Apache Jakarta subproject; and be it further</p>
+<p>If the subproject/component has its own mailing list, we have to close this. 
+We should send a final email.</p>
 
-  <p><strong>RESOLVED,</strong> that the initial Logging Services PMC be and hereby is tasked with the migration and integration of the sister projects, namely but not exclusively, Log4Perl, Log4Net, Log4Cxx (c++), Log4CPlus, Log4PHP and Log4plsql, subject to the will and approval of the respective project owners and communities.</p>
+<h4 id="retire-announcement">Retire: Announcement</h4>
 
-  <p>This was passed by Unanimous Vote.</p>
-</blockquote>
+<p>We have to announce the retirement of the subproject at dev@, users@
+and the Logging blog main page.</p>
+
+<h4 id="retire-move-section-of-the-landing-page">Retire: Move section of the landing page</h4>
+
+<p>Move the project from the landing page to the “Dormant projects”.</p>
+
+<h4 id="retire-homepage">Retire: Homepage</h4>
+
+<p>Add the retirement to the archive page.</p>
+
+<h4 id="retire-releases">Retire: Releases</h4>
+
+<p>The last released artifacts, if any, should be removed from the Apache 
+distribution server. To do so, remove any artifact related to the retired 
+subproject in dist.apache.org (it is managed with subversion). 
+Note: as every Apache release, nothing is deleted but everything is archived, 
+the artifacts will still be available at archive.apache.org 
+(or for Incubator releases).</p>
+
+<h3 id="reactivate-a-subproject-or-component">Reactivate a subproject or component</h3>
+
+<p>The process starts by a format vote by the Ant PMC on the main development mailing list. Basically, we have to announce it and make resources read-write again.</p>
+
+<ul>
+  <li>Version Control</li>
+  <li>Issue Tracker</li>
+  <li>Mailing List</li>
+  <li>Announcement</li>
+  <li>Build Jobs</li>
+  <li>Landing Page</li>
+  <li>Homepage</li>
+  <li>Releases</li>
+</ul>
+
+<h4 id="reactivate-version-control">Reactivate: Version Control</h4>
+
+<p>Delete the marker file “RETIRED_PROJECT”. <br />
+Delete the note at the top of a README file as well so it is 
+immediately visible to people browsing the GitHub mirror. <br />
+Ask infra to make the repository read-write again.</p>
+
+<h4 id="reactivate-issue-tracker">Reactivate: Issue Tracker</h4>
+
+<p>If the subproject/component has its own issue tracker, we have to reopen that.</p>
+
+<h4 id="reactivate-mailing-list">Reactivate: Mailing List</h4>
+
+<p>Because reopening implies a smaller community, we should use the
+main mailing list dev@. So reactivating a special list is not required 
+and could be postponed to a later PMC decision.</p>
+
+<h4 id="reactivate-announcement">Reactivate: Announcement</h4>
+
+<p>Announce the reactivation of the subproject at dev@.</p>
+
+<h4 id="reactivate-build-jobs">Reactivate: Build Jobs</h4>
+
+<p>Build jobs, as required.</p>
+
+<h4 id="reactivate-move-section-of-the-landing-page">Reactivate: Move section of the landing page</h4>
+
+<p>Move the project from the landing page from the “dormant projects” to 
+the “active projects.”</p>
+
+<h4 id="reactivate-homepage">Reactivate: Homepage</h4>
+
+<p>Remove the component from the archive page.</p>
+
+<h4 id="reactivate-releases">Reactivate: Releases</h4>
+
+<p>No action needed.</p>
 
     </div>    
 </div>

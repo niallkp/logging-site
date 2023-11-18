@@ -1,4 +1,221 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-11-18T16:47:11+00:00</updated><id>/feed.xml</id><title type="html">Apache Software Foundation - Logging Services</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcoming Apache Flume to Apache Logging Services</title><link href="/blog/2023/11/17/flume-joins-logging-services.html" rel="alternate" type="text/html" title="Welcoming Apache Flume to Apache Logging Services" /><published>2023-11-17T00:00:00+00:00</published><updated>2023-11-17T00:00:00+00:00</updated><id>/blog/2023/11/17/flume-joins-logging-services</id><content type="html" xml:base="/blog/2023/11/17/flume-joins-logging-services.html"><![CDATA[<h1 id="welcoming-the-apache-flume-team-to-apache-logging-services">Welcoming the Apache Flume Team to Apache Logging Services</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-03-04T09:00:57+00:00</updated><id>/feed.xml</id><title type="html">Apache Software Foundation - Logging Services</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Celebrating Two Decades of Innovation with Apache Log4j</title><link href="/blog/2023/12/18/20-years-of-innovation.html" rel="alternate" type="text/html" title="Celebrating Two Decades of Innovation with Apache Log4j" /><published>2023-12-18T00:00:00+00:00</published><updated>2023-12-18T00:00:00+00:00</updated><id>/blog/2023/12/18/20-years-of-innovation</id><content type="html" xml:base="/blog/2023/12/18/20-years-of-innovation.html"><![CDATA[<h1 id="two-decades-of-apache-log4j-a-journey-of-resilience-and-innovation">Two Decades of Apache Log4j: A Journey of Resilience and Innovation</h1>
+
+<p>Today, December 17, 2023 marks a significant milestone for the Apache Logging Services project, 
+as we celebrate 20 years since the inception of Log4j 1. 
+This journey, spanning two decades, has been one of constant evolution, growth, and community spirit.</p>
+
+<h2 id="a-timeline-of-success-and-learning">A Timeline of Success and Learning</h2>
+
+<p>From the early days of Log4j 1, we have witnessed numerous releases, 
+welcomed many new committers and PMC members, and seen the launch of various side
+projects as Log4xx, Chainsaw or Log4php. The recent addition of 
+Apache Flume has further broadened our suite of logging
+tools, showcasing our commitment to providing diverse and robust solutions.</p>
+
+<p>We are incredibly proud of the learning curve we experienced with Log4j 1. 
+Every mistake was a stepping stone towards the development of Log4j 2, 
+which has surpassed all our previous projects in scope and impact.</p>
+
+<h2 id="overcoming-challenges-together">Overcoming Challenges Together</h2>
+
+<p>The Log4shell incident was a critical period for us. However, the strength 
+and support of not only our community but also the global open-source community 
+were astounding. Together, we transformed a challenge into an opportunity to create
+the most secure logging framework to date. The extensive code reviews and 
+collaborative efforts post-Log4shell have significantly fortified 
+Log4j’s security features.</p>
+
+<h2 id="looking-ahead-with-excitement">Looking Ahead with Excitement</h2>
+
+<p>The future looks bright as we eagerly anticipate the release of Log4j 3. 
+Alongside, we are preparing for new versions of Apache Flume, a logging processor, 
+and other exciting side projects. These developments are a testament to our 
+commitment to innovation and excellence.</p>
+
+<h2 id="a-community-that-values-collaboration">A Community That Values Collaboration</h2>
+
+<p>At the heart of our success is our community spirit, perfectly encapsulated 
+in the Apache Software Foundation’s motto, “Community Over Code.” 
+This philosophy has been our guiding light, ensuring that we prioritize 
+collaboration, mutual respect, and collective growth.</p>
+
+<p>We warmly invite you to join us in this celebratory moment. Whether you 
+are a seasoned contributor or new to the open-source world, there is a 
+place for you in the Apache Logging Services community. Together, let’s 
+continue to innovate, learn, and build a future that echoes the resilience 
+and spirit of the past two decades.</p>]]></content><author><name></name></author><category term="Apache Log4j" /><category term="Anniversary" /><category term="Open Source" /><category term="Community" /><summary type="html"><![CDATA[Marking 20 years of growth and resilience with Apache Log4j, from its inception in 2003 to the upcoming launch of Log4j 3.]]></summary></entry><entry><title type="html">Log4j: A New Chapter with STF Funding</title><link href="/blog/2023/12/14/announcing-support-from-the-stf.html" rel="alternate" type="text/html" title="Log4j: A New Chapter with STF Funding" /><published>2023-12-14T00:00:00+00:00</published><updated>2023-12-14T00:00:00+00:00</updated><id>/blog/2023/12/14/announcing-support-from-the-stf</id><content type="html" xml:base="/blog/2023/12/14/announcing-support-from-the-stf.html"><![CDATA[<h1 id="receiving-support-from-the-sovereign-tech-fund">Receiving Support from the Sovereign Tech Fund</h1>
+
+<p>For a long time, Apache Log4j has thrived through the dedication and contributions 
+of our community, relying mostly on unpaid volunteers. Today, we’re excited to announce 
+a pivotal moment in our journey – the Sovereign Tech Fund (STF) has chosen to 
+support us for the further development of specific Log4j projects.</p>
+
+<p>The STF, known for its commitment to critical projects 
+(<a href="https://www.sprind.org/de/projekte/sovereign-tech-fund/">Sovereign Tech Fund</a>), 
+recognizes the significance of Log4j in the global tech landscape. This support 
+is a testament to the essential role Log4j plays in the IT infrastructure.</p>
+
+<h2 id="focused-development-and-security-enhancement">Focused Development and Security Enhancement</h2>
+
+<p>We’re honored that three of our maintainers - <a href="https://grobmeier.solutions">Christian Grobmeier</a>, 
+Piotr Karwasz, and <a href="https://volkan.yazi.ci">Volkan Yazıcı</a> - are being supported through 
+this initiative. Collaborating closely with the Project Management Committee (PMC), 
+their focus will be on enhancing security, elevating code quality, and adding new, 
+advanced features.</p>
+
+<p>We have already made significant progress: implemented a CI-based
+release pipeline, modernized the code base and dependencies, started
+publishing <a href="https://logging.apache.org/logging-parent/latest/#cyclonedx-sbom">Software Bill of Materials (SBOM) and Vulnerability Disclosure Report (VDR)</a>
+for released artifacts, and several other enhancements. This funding 
+will also enable us to substantially improve our documentation, tests, and overall stability.</p>
+
+<h2 id="broadening-our-horizons">Broadening Our Horizons</h2>
+
+<p>This is an extraordinary opportunity for Log4j and the Logging Services team. It enables us to refine our library, 
+making it more user-friendly and maintaining our position as a leading logging solution. 
+Our team’s size and expertise allow us to respond swiftly to security issues. 
+With the STF’s support, we can further enhance the security and stability that 
+enterprises and our diverse user base have come to expect from us.</p>
+
+<p>Without this funding, many of these improvements would not have been feasible. 
+It marks a significant leap in our ability to serve the community and 
+contribute to the open-source ecosystem.</p>
+
+<h2 id="acknowledgments-and-future-endeavors">Acknowledgments and Future Endeavors</h2>
+
+<p>On a personal note, we would like to extend our gratitude to the (<a href="https://www.inoeg.de/">InÖG</a>) 
+for their pivotal role in facilitating these developments. As they made us aware of the STF 
+during our participation in their remarkable project “<a href="https://www.dialog-cybersicherheit.de/b3/">Buntes Bug Bounty</a>” 
+program, a commendable open source project to bolster software security 
+(<a href="https://www.dialog-cybersicherheit.de/workstreams/">Dialog-Cybersicherheit</a>) in Germany.</p>
+
+<p>As we embark on this new chapter, we invite the global tech community to join us 
+in celebrating this milestone. Your support and contributions have brought us here, 
+and together, we’ll continue to strengthen the foundation of digital infrastructure 
+for a safer, more robust technological future.</p>]]></content><author><name></name></author><category term="Apache Log4j" /><category term="Sovereign Tech Fund" /><category term="Open Source" /><category term="Community" /><summary type="html"><![CDATA[Celebrating a significant milestone in Log4j's journey with support from the Sovereign Tech Fund.]]></summary></entry><entry><title type="html">Upgrade to Apache Commons Logging 1.3.0</title><link href="/blog/2023/12/02/apache-common-logging-1.3.0.html" rel="alternate" type="text/html" title="Upgrade to Apache Commons Logging 1.3.0" /><published>2023-12-02T00:00:00+00:00</published><updated>2023-12-02T00:00:00+00:00</updated><id>/blog/2023/12/02/apache-common-logging-1.3.0</id><content type="html" xml:base="/blog/2023/12/02/apache-common-logging-1.3.0.html"><![CDATA[<h1 id="apache-commons-logging">Apache Commons Logging</h1>
+
+<p><a href="https://commons.apache.org/proper/commons-logging/">Apache Commons Logging</a> (JCL) is one of the oldest Java logging API
+available.
+Released for the first time in 2002, it immediately saw a widespread adoption in the Java community.</p>
+
+<p>While newer APIs, like SLF4J and our own Log4j API, appeared over time, even in 2023 it is hard to find an application stack
+that does not depend on JCL.
+According to Sonatype, Apache Commons Logging is used in <a href="https://central.sonatype.com/artifact/commons-logging/commons-logging">over 1 million artifacts</a>,
+while the second place is taken by SLF4J with <a href="https://central.sonatype.com/artifact/org.slf4j/slf4j-api">almost 40 thousand artifacts</a>.</p>
+
+<h2 id="version-130">Version 1.3.0</h2>
+
+<p>After more than 9 years since its previous release (version 1.2 released in July 2014), Apache Commons Logging released
+a new 1.3.0 version today (cf. <a href="https://lists.apache.org/thread/wx6v7wwhbnk64nx708hszctzv8fdsvdl">announcement</a>).
+Among the most prominent changes, the new version:</p>
+
+<ul>
+  <li>forwards logging to the Log4j API out-of-the-box (if present),</li>
+  <li>also supports forwarding to SLF4J,</li>
+  <li>adds support for the Java Platform Module System (JPMS) with the module name <code class="language-plaintext highlighter-rouge">org.apache.commons.logging</code>.</li>
+</ul>
+
+<h2 id="upgrade-instructions-log4j-corelogback">Upgrade instructions (Log4j Core/Logback)</h2>
+
+<p>The upgrade path for users of the Log4j Core and Logback logging backends is easy.
+The first step is upgrading <code class="language-plaintext highlighter-rouge">commons-logging</code>.
+In Maven this can be done using dependency management.</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dependencyManagement&gt;</span>
+    <span class="nt">&lt;dependencies&gt;</span>
+        <span class="nt">&lt;dependency&gt;</span>
+            <span class="nt">&lt;groupId&gt;</span>commons-logging<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>commons-logging<span class="nt">&lt;/artifactId&gt;</span>
+            <span class="nt">&lt;version&gt;</span>1.3.0<span class="nt">&lt;/version&gt;</span>
+        <span class="nt">&lt;/dependency&gt;</span>
+    <span class="nt">&lt;/dependencies&gt;</span>
+<span class="nt">&lt;/dependencyManagement&gt;</span>
+</code></pre></div></div>
+
+<p>The second step consists in removing obsolete dependencies.
+Since version 1.2 only supported old generation logging backends out-of-the-box (<a href="https//logging.apache.org/log4j/1.2/">Log4j 1.x</a>,
+<a href="https//avalon.apache.org">Avalon</a> and <a href="https://javalogging.sourceforge.net">Lumberjack</a>), the Java community developed
+many <code class="language-plaintext highlighter-rouge">LogFactory</code> implementations and complete Apache Commons Logging replacements:</p>
+
+<ul>
+  <li><a href="https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j"><code class="language-plaintext highlighter-rouge">org.slf4j:jcl-over-slf4j</code></a> (replacement),</li>
+  <li><a href="https://mvnrepository.com/artifact/org.springframework/spring-jcl"><code class="language-plaintext highlighter-rouge">org.springframework:spring-jcl</code></a> (replacement),</li>
+  <li>our own <a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-jcl"><code class="language-plaintext highlighter-rouge">org.apache.logging.log4j:log4j-jcl</code></a>
+(<code class="language-plaintext highlighter-rouge">LogFactory</code> implementation).</li>
+</ul>
+
+<p>These artifacts can be <strong>safely</strong> removed from your dependency stack.
+For JPMS users this operation is even <strong>required</strong>.</p>
+
+<p>To do so Maven users can use exclusions:</p>
+
+<div class="language-xml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;dependency&gt;</span>
+    <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+    <span class="nt">&lt;artifactId&gt;</span>spring-jcl<span class="nt">&lt;/artifactId&gt;</span>
+    <span class="nt">&lt;exclusions&gt;</span>
+        <span class="nt">&lt;exclusion&gt;</span>
+            <span class="nt">&lt;groupId&gt;</span>org.springframework<span class="nt">&lt;/groupId&gt;</span>
+            <span class="nt">&lt;artifactId&gt;</span>spring-jcl<span class="nt">&lt;/artifactId&gt;</span>
+        <span class="nt">&lt;/exclusion&gt;</span>
+    <span class="nt">&lt;/exclusions&gt;</span>
+<span class="nt">&lt;/dependency&gt;</span>
+</code></pre></div></div>
+
+<p>and to prevent regressions, add those dependencies to a <a href="https://maven.apache.org/enforcer/enforcer-rules/bannedDependencies.html"><code class="language-plaintext highlighter-rouge">bannedDependencies</code> Maven Enforcer rule</a>.</p>
+
+<h2 id="upgrade-instructions-log4j-1xreload4j-users">Upgrade instructions (Log4j 1.x/Reload4j users)</h2>
+
+<p>For users that use Log4j 1.x or Reload4j as logging backend the upgrade is more complicated: version 1.3.0 disabled the Log4j 1.x backend by default.</p>
+
+<p>Log4j 1.x/Reload4j users are:</p>
+
+<ul>
+  <li>encouraged to migrate to Log4j 2.x Core (cf. <a href="https://logging.apache.org/log4j/2.x/manual/migration.html">migration guide</a>) or Logback,</li>
+  <li>if that is not possible (or if a transitional period is required) they need to add a <code class="language-plaintext highlighter-rouge">commons-logging.properties</code> file to their applications containing:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>org.apache.commons.logging.Log = org.apache.commons.logging.impl.Log4JLogger
+</code></pre></div></div>
+
+<h2 id="jpms-users">JPMS users</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">org.apache.commons.logging</code> JPMS module has an <strong>optional</strong> dependency on the Log4j API.
+In order for the JVM to automatically add the <code class="language-plaintext highlighter-rouge">org.apache.logging.log4j</code> module to your application’s runtime, you need to add:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>requires org.apache.logging.log4j;
+</code></pre></div></div>
+
+<p>to your application’s module descriptor.</p>]]></content><author><name></name></author><category term="Apache" /><category term="Commmons Logging" /><category term="Open Source" /><summary type="html"><![CDATA[Instructions to upgrade application to Apache Commons Logging 1.3.0.]]></summary></entry><entry><title type="html">Welcoming Stephen Webb to the Apache Logging Services PMC</title><link href="/blog/2023/11/28/new-pmc-member.html" rel="alternate" type="text/html" title="Welcoming Stephen Webb to the Apache Logging Services PMC" /><published>2023-11-28T00:00:00+00:00</published><updated>2023-11-28T00:00:00+00:00</updated><id>/blog/2023/11/28/new-pmc-member</id><content type="html" xml:base="/blog/2023/11/28/new-pmc-member.html"><![CDATA[<h1 id="welcoming-stephen-webb-to-the-apache-logging-services-community">Welcoming Stephen Webb to the Apache Logging Services community</h1>
+
+<p>We are thrilled to take this moment to celebrate and acknowledge Stephen Webb, 
+who joined the Apache Logging Services community back in 2020. 
+Stephen’s journey with us has been nothing short of remarkable, 
+especially his substantial contributions to the Log4cxx project.</p>
+
+<p>Stephen’s work has played a vital role in enhancing Log4cxx, showcasing 
+his expertise and dedication to improving our logging solutions.</p>
+
+<p>That’s why we invited Stephen to the Apache Logging Services PMC.</p>
+
+<h2 id="a-community-built-on-collaboration-and-innovation">A Community built on collaboration and innovation</h2>
+
+<p>The Apache Logging Services community is a vibrant and dynamic group, 
+united by our passion for open-source software and our commitment to 
+delivering top-notch logging solutions. We’re proud of the 
+collaborative environment we’ve fostered, where ideas thrive and innovation 
+is the norm.</p>
+
+<h2 id="open-arms-for-newcomers">Open arms for newcomers</h2>
+
+<p>In the spirit of growth and learning, we also want to extend a warm 
+welcome to newcomers. Whether you’re an experienced developer or just starting,
+Apache Logging Services is a place where you can contribute, learn, and grow. 
+Our community is always glad to help, guide, and collaborate with 
+anyone who shares our passion for open-source software and logging solutions.</p>
+
+<p>Please reach out using GitHub Issues/Discussions or our mailing lists.</p>
+
+<p>Join us, if you want to be part of our project. Let’s build together!</p>]]></content><author><name></name></author><category term="Logging Services" /><category term="Apache" /><category term="Community" /><category term="Open Source" /><summary type="html"><![CDATA[Highlighting the impactful journey of Stephen Webb with Apache Logging Services since 2020, and his notable contributions to Log4cxx.]]></summary></entry><entry><title type="html">Welcoming Apache Flume to Apache Logging Services</title><link href="/blog/2023/11/17/flume-joins-logging-services.html" rel="alternate" type="text/html" title="Welcoming Apache Flume to Apache Logging Services" /><published>2023-11-17T00:00:00+00:00</published><updated>2023-11-17T00:00:00+00:00</updated><id>/blog/2023/11/17/flume-joins-logging-services</id><content type="html" xml:base="/blog/2023/11/17/flume-joins-logging-services.html"><![CDATA[<h1 id="welcoming-the-apache-flume-team-to-apache-logging-services">Welcoming the Apache Flume Team to Apache Logging Services</h1>
 
 <p>We are excited to announce that <a href="https://flume.apache.org"><strong>Apache Flume</strong></a> is now a part of our Logging Services family. 
 Flume is renowned for its distributed, reliable, and available service, specializing 
