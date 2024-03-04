@@ -1912,6 +1912,8 @@ log4j-2,log4j-jpl,2020-04-20,rgoers@apache.org
 log4j-2,log4j-jpl,2020-04-20,rgoers@apache.org
 log4j-2,log4j-jpl,2020-04-12,rgoers@apache.org
 log4j-2,log4j-jpl,2020-04-05,rgoers@apache.org
+log4j-2,log4j-api-test,2024-03-03,84731559@qq.com
+log4j-2,log4j-api-test,2024-03-01,volkan@yazi.ci
 log4j-2,log4j-api-test,2024-02-27,volkan@yazi.ci
 log4j-2,log4j-api-test,2024-02-12,volkan@yazi.ci
 log4j-2,log4j-api-test,2024-02-10,volkan@yazi.ci
@@ -2414,6 +2416,8 @@ log4j-2,log4j-couchdb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-couchdb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-couchdb,2017-10-19,mikael@staldal.nu
 log4j-2,log4j-couchdb,2017-10-17,mikael@staldal.nu
+log4j-2,log4j-api,2024-03-03,84731559@qq.com
+log4j-2,log4j-api,2024-03-01,volkan@yazi.ci
 log4j-2,log4j-api,2024-02-27,volkan@yazi.ci
 log4j-2,log4j-api,2024-02-19,73608737+jengebr@users.noreply.github.com
 log4j-2,log4j-api,2024-02-12,volkan@yazi.ci
@@ -4058,6 +4062,11 @@ log4j-2,log4j-api,2013-09-03,ggregory@apache.org
 log4j-2,log4j-api,2013-08-26,rpopma@unknown
 log4j-2,log4j-api,2013-08-26,rpopma@unknown
 log4j-2,log4j-api,2013-08-26,ggregory@apache.org
+log4j-2,log4j-bom,2024-03-03,84731559@qq.com
+log4j-2,log4j-bom,2024-03-01,volkan@yazi.ci
+log4j-2,log4j-bom,2024-03-01,volkan@yazi.ci
+log4j-2,log4j-bom,2024-03-01,private@logging.apache.org
+log4j-2,log4j-bom,2024-03-01,private@logging.apache.org
 log4j-2,log4j-bom,2024-02-29,volkan@yazi.ci
 log4j-2,log4j-bom,2024-02-29,volkan@yazi.ci
 log4j-2,log4j-bom,2024-02-29,volkan@yazi.ci
@@ -18502,6 +18511,7 @@ log4j-2,log4j-slf4j-impl,2013-09-10,ggregory@apache.org
 log4j-2,log4j-slf4j-impl,2013-09-10,ggregory@apache.org
 log4j-2,log4j-slf4j-impl,2013-09-05,rgoers@apache.org
 log4j-2,log4j-slf4j-impl,2013-08-26,ggregory@apache.org
+log4j-2,log4j,2024-03-01,private@logging.apache.org
 log4j-2,log4j,2024-02-29,volkan@yazi.ci
 log4j-2,log4j,2024-02-28,volkan@yazi.ci
 log4j-2,log4j,2024-02-27,private@logging.apache.org
@@ -30355,6 +30365,7 @@ log4net,*,2004-01-23,ceki@apache.org
 log4net,*,2004-01-23,nicko@apache.org
 log4net,*,2004-01-23,ceki@apache.org
 log4net,*,2004-01-23,dev-null@apache.org
+log4j-tools,log4j-docgen,2024-03-01,volkan@yazi.ci
 log4j-tools,log4j-docgen,2024-02-29,volkan@yazi.ci
 log4j-tools,log4j-docgen,2024-02-29,volkan@yazi.ci
 log4j-tools,log4j-docgen,2024-02-29,volkan@yazi.ci
@@ -30504,6 +30515,7 @@ log4j-tools,log4j-changelog-maven-plugin,2023-03-13,volkan@yazi.ci
 log4j-tools,log4j-changelog-maven-plugin,2023-03-03,volkan@yazi.ci
 log4j-tools,log4j-changelog-maven-plugin,2023-01-25,volkan@yazi.ci
 log4j-tools,log4j-changelog-maven-plugin,2023-01-23,volkan@yazi.ci
+log4j-tools,log4j-tools-bom,2024-03-01,volkan@yazi.ci
 log4j-tools,log4j-tools-bom,2024-02-29,volkan@yazi.ci
 log4j-tools,log4j-tools-bom,2024-02-29,volkan@yazi.ci
 log4j-tools,log4j-tools-bom,2024-02-29,volkan@yazi.ci
@@ -33991,6 +34003,7 @@ log4j-audit,log4j-catalog-jpa,2018-01-16,rgoers@apache.org
 log4j-audit,log4j-catalog-jpa,2017-10-08,rgoers@nextiva.com
 log4j-audit,log4j-catalog-jpa,2017-09-06,rgoers@nextiva.com
 log4j-audit,log4j-catalog-jpa,2017-09-02,rgoers@nextiva.com
+log4j-audit,log4j-audit-parent,2024-03-01,private@logging.apache.org
 log4j-audit,log4j-audit-parent,2024-02-20,private@logging.apache.org
 log4j-audit,log4j-audit-parent,2024-02-14,private@logging.apache.org
 log4j-audit,log4j-audit-parent,2024-02-09,private@logging.apache.org
