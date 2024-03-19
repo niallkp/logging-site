@@ -230,16 +230,16 @@ Following schemas model the Log4j runtime configuration, i.e., <code>log4j2.xml<
                xsi:schemaLocation="
                        https://logging.apache.org/xml/ns
                        https://logging.apache.org/xml/ns/log4j-config-2.xsd"&gt;
-  &lt;Appenders&gt;
+  &lt;appenders&gt;
     &lt;Console name="Console" target="SYSTEM_OUT"&gt;
       &lt;PatternLayout pattern="%d [%t] %p %c - %m%n"/&gt;
     &lt;/Console&gt;
-  &lt;/Appenders&gt;
-  &lt;Loggers&gt;
-    &lt;Root level="warn"&gt;
+  &lt;/appenders&gt;
+  &lt;loggers&gt;
+    &lt;root level="WARN"&gt;
       &lt;AppenderRef ref="Console"/&gt;
-    &lt;/Root&gt;
-  &lt;/Loggers&gt;
+    &lt;/root&gt;
+  &lt;/loggers&gt;
 &lt;/Configuration&gt;</code></pre>
 </div>
 </div>
