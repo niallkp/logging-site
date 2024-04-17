@@ -27,7 +27,6 @@
                         <li><a href="/guidelines.html">Guidelines</a></li>
                         <li><a href="/charter.html">Charter</a></li>
                         <li><a href="/team-list.html">Team</a></li>
-                        <li><a href="/support.html">Support &amp; Help</a></li>
                         <li><a href="/processes.html">Retirement Processes</a>
                         <li><a target="_blank" href="https://cwiki.apache.org/confluence/display/LOGGING/Home">Wiki</a>
                         <li><a href="/what-is-logging.html">What is logging?</a>
@@ -39,17 +38,10 @@
                 <li><a href="/download.html">Download</a></li>
             </ul>
             <ul class="nav">
-                <li><a href="/blog">Blog</a></li>
+                <li><a href="/support.html">Support</a></li>
             </ul>
             <ul class="nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Security<b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="/security/">Handling Security</a></li>
-                        <li><a href="/security/known-vulnerabilities.html">Known Vulnerabilities</a></li>
-                        <li><a href="/activity-monitor/">Activity Monitor</a></li>
-                    </ul>
-                </li>
+                <li><a href="/security.html">Security</a></li>
             </ul>
             <ul class="nav">
                 <li><a href="/xml/ns">XML Schemas</a></li>
@@ -68,6 +60,9 @@
                     </ul>
                 </li>
             </ul>
+            <ul class="nav pull-right">
+                <li><a href="/blog">Blog</a></li>
+            </ul>
         </div>
     </div>
 </div>
@@ -78,8 +73,22 @@
         <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
+<p>Logging Services employ many public and private support channels for users, contributors, and maintainers.</p>
+</div>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+<div class="paragraph">
 <p>The Apache Software Foundation does not employ individuals to develop and support any of its projects.
 The individuals who contribute to Apache projects do it either as part of specific tasks assigned to them by their employer, on their own initiative to benefit their employer, or on their own free time.</p>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
@@ -103,19 +112,16 @@ The individuals who contribute to Apache projects do it either as part of specif
 </ul>
 </div>
 <div class="paragraph">
-<p>We urge you to first check our <a href="faq.html">FAQ</a> to see if it has already been answered.
-If not, you can ask your questions on one of our official user support channels:</p>
+<p>We urge you to first check the website of the associated project to see if your question has already been answered there.
+If not, you can use one the following communication channels:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><a href="https://github.com/apache/logging-log4j2/discussions">GitHub Discussions</a> (<strong>experimental</strong>)</p>
+<p>GitHub Discussions (<a href="https://github.com/apache/logging-log4cxx/discussions">Log4cxx</a>, <a href="https://github.com/apache/logging-log4j2/discussions">Log4j</a>, <a href="https://github.com/apache/logging-log4net/discussions">Log4net</a>)</p>
 </li>
 <li>
-<p><code>log4j-user@logging.apache.org</code> mailing list (public | <a href="mailto:log4j-user-subscribe@logging.apache.org">subscribe</a> | <a href="mailto:log4j-user-unsubscribe@logging.apache.org">unsubscribe</a> | <a href="mailto:log4j-user@logging.apache.org">post</a> | <a href="https://lists.apache.org/list.html?log4j-user&#64;logging.apache.org">archive</a>)</p>
-</li>
-</ul>
-</div>
+<p><code>log4j-user@logging.apache.org</code> mailing list (<a href="mailto:log4j-user-subscribe@logging.apache.org">subscribe</a> | <a href="mailto:log4j-user-unsubscribe@logging.apache.org">unsubscribe</a> | <a href="mailto:log4j-user@logging.apache.org">post</a> | <a href="https://lists.apache.org/list.html?log4j-user&#64;logging.apache.org">archive</a>)</p>
 <div class="admonitionblock warning">
 <table>
 <tr>
@@ -148,10 +154,9 @@ For more information, please see the <a href="https://privacy.apache.org/policie
 </tr>
 </table>
 </div>
-<div class="ulist">
-<ul>
+</li>
 <li>
-<p><a href="http://stackoverflow.com">Stack Overflow</a> (use <a href="http://stackoverflow.com/questions/tagged/log4j">log4j</a> or <a href="http://stackoverflow.com/questions/tagged/log4j2">log4j2</a> tags)</p>
+<p>Stack Overflow (<a href="http://stackoverflow.com/questions/tagged/log4cxx">Log4cxx</a>, <a href="http://stackoverflow.com/questions/tagged/log4j">Log4j</a>, <a href="http://stackoverflow.com/questions/tagged/log4j">Log4net</a>)</p>
 </li>
 </ul>
 </div>
@@ -161,8 +166,31 @@ For more information, please see the <a href="https://privacy.apache.org/policie
 <h2 id="maintainer-discussions">Maintainer discussions</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Apache Log4j project officially uses mailing lists for discussions related to maintenance and development.</p>
+<p>If you have questions or feedback like:</p>
 </div>
+<div class="ulist">
+<ul>
+<li>
+<p>A class should be public instead of package-private</p>
+</li>
+<li>
+<p>A plugin is missing configuration options</p>
+</li>
+<li>
+<p>You&#8217;ve found a bug</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>then please contact us using the following channels:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>GitHub Discussions (<a href="https://github.com/apache/logging-log4cxx/discussions">Log4cxx</a>, <a href="https://github.com/apache/logging-log4j2/discussions">Log4j</a>, <a href="https://github.com/apache/logging-log4net/discussions">Log4net</a>)</p>
+</li>
+<li>
+<p><code>dev@logging.apache.org</code> mailing list (<a href="mailto:dev-subscribe@logging.apache.org">subscribe</a> | <a href="mailto:dev-unsubscribe@logging.apache.org">unsubscribe</a> | <a href="mailto:dev@logging.apache.org">post</a> | <a href="https://lists.apache.org/list.html?dev&#64;logging.apache.org">archive</a>)</p>
 <div class="admonitionblock warning">
 <table>
 <tr>
@@ -177,34 +205,6 @@ If you are not subscribed, when you post an email, it will be subject to moderat
 </td>
 </tr>
 </table>
-</div>
-<div class="paragraph">
-<p>If you have questions or feedback like:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>A class should have public visibility instead of package-scoped</p>
-</li>
-<li>
-<p>A plugin is missing configuration options</p>
-</li>
-<li>
-<p>You found a bug</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>then please contact us using the following mailing lists:</p>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1"><code>dev@logging.apache.org</code> (public | <a href="mailto:dev-subscribe@logging.apache.org">subscribe</a> | <a href="mailto:dev-unsubscribe@logging.apache.org">unsubscribe</a> | <a href="mailto:dev@logging.apache.org">post</a> | <a href="https://lists.apache.org/list.html?dev&#64;logging.apache.org">archive</a>)</dt>
-<dd>
-<p>For <em>development</em> discussions
-(Please prefix subjects with <code>[log4j]</code> when starting a new thread!)</p>
-</dd>
-</dl>
 </div>
 <div class="admonitionblock warning">
 <table>
@@ -223,17 +223,28 @@ For more information, please see the <a href="https://privacy.apache.org/policie
 </tr>
 </table>
 </div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1"><code>security@logging.apache.org</code> (private | <a href="mailto:security@logging.apache.org">post</a>)</dt>
-<dd>
-<p>For reporting unlisted <strong>security vulnerabilities</strong> or other unexpected behaviour that has a security impact</p>
-</dd>
-<dt class="hdlist1"><code>private@logging.apache.org</code> (private | <a href="mailto:private@logging.apache.org">post</a>)</dt>
-<dd>
-<p>For the discussion of confidential topics within the Apache Logging Services project management committee.</p>
-</dd>
-</dl>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="private">Private discussions</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Users are strongly advised to use one of the above public channels.
+If it deems necessary, use following channels for private discussions.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>security@logging.apache.org</code> mailing list (<a href="mailto:security@logging.apache.org">post</a>) is used for reporting unlisted <strong>security vulnerabilities</strong> or other unexpected behaviour that has a security impact.
+Make sure to check <a href="security.html">the Security page</a> before sending an email.</p>
+</li>
+<li>
+<p><code>private@logging.apache.org</code> mailing list (<a href="mailto:private@logging.apache.org">post</a>) is used for discussing other confidential topics with the Logging Services PMC.</p>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -241,8 +252,8 @@ For more information, please see the <a href="https://privacy.apache.org/policie
 <h2 id="issues">Issues</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The Log4j project uses <a href="https://github.com/apache/logging-log4j2/issues">GitHub Issues</a> as its issue tracking system.
-The old issue tracking system, <a href="https://issues.apache.org/jira/projects/LOG4J2">JIRA</a>, is still accessible, though only recommended for issues that were already created there.</p>
+<p>Logging Services projects use GitHub Issues (<a href="https://github.com/apache/logging-log4cxx/issues">Log4cxx</a>, <a href="https://github.com/apache/logging-log4j2/issues">Log4j</a>, <a href="https://github.com/apache/logging-log4j2/issues">Log4net</a>) as their issue tracking system.
+The old issue tracking system, JIRA (<a href="https://issues.apache.org/jira/projects/LOGCXX">Log4cxx</a>, <a href="https://issues.apache.org/jira/projects/LOG4J2">Log4j</a>), is still accessible, though only recommended for issues that were already created there.</p>
 </div>
 <div class="paragraph">
 <p>Issues get resolved in one of the following ways:</p>
@@ -250,7 +261,7 @@ The old issue tracking system, <a href="https://issues.apache.org/jira/projects/
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>The reporter or another interested party provides <a href="https://github.com/apache/logging-log4j2/pulls">a pull request</a> tagging the issue in its title</p>
+<p>The reporter or another interested party provides a pull request tagging the issue in its title</p>
 </li>
 <li>
 <p>A committer is interested in the issue and decides to work on it</p>
@@ -320,17 +331,30 @@ In either case, while the Apache Logging Services project thanks you for your su
 <h2 id="commercial">Third-party commercial support</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>While neither the Apache Software Foundation nor the Apache Logging Services project provide any commercial support for the Log4j products, individual committers may collaborate with services that provide such support.</p>
+<p>While neither the Apache Software Foundation nor the Apache Logging Services project provide any commercial support for the Logging Services products, individual committers may collaborate with services that provide such support.</p>
 </div>
 <div class="paragraph">
-<p>The following aims to be a list of all commercial support services involving one or more Log4j committers.</p>
+<p>The following aims to be a list of all commercial support services involving one or more <a href="team-list.html">Logging Services PMC members</a>.</p>
 </div>
-<div class="sect2">
-<h3 id="tidelift">Tidelift</h3>
-<div class="paragraph">
-<p>Some Log4j maintainers receive funding from Tidelift for their maintenance efforts.
-See <a href="https://tidelift.com">the Tidelift website</a> for details.</p>
-</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><a href="https://volkan.yazi.ci">Abstract Dynamics</a></dt>
+<dd>
+<p>Consultancy services offered by PMC member <a href="https://www.linkedin.com/in/yazicivo">Volkan Yazıcı</a></p>
+</dd>
+<dt class="hdlist1"><a href="https://copernik.eu">Copernik</a></dt>
+<dd>
+<p>Consultancy services offered by PMC member <a href="https://www.linkedin.com/in/ppkarwasz">Piotr Karwasz</a></p>
+</dd>
+<dt class="hdlist1"><a href="https://grobmeier.solutions">Grobmeier Solutions</a></dt>
+<dd>
+<p>Consultancy services offered by PMC member <a href="https://www.linkedin.com/in/grobmeier/">Christian Grobmeier</a></p>
+</dd>
+<dt class="hdlist1"><a href="https://tidelift.com">Tidelift</a></dt>
+<dd>
+<p>Some Log4j maintainers receive funding from Tidelift for their maintenance efforts.</p>
+</dd>
+</dl>
 </div>
 </div>
 </div>
