@@ -357,6 +357,7 @@ log4j-kotlin,log4j-api-kotlin,2017-11-23,rocketraman@gmail.com
 log4j-kotlin,log4j-api-kotlin,2016-12-08,rocketraman@gmail.com
 log4j-kotlin,log4j-api-kotlin,2016-11-14,rocketraman@gmail.com
 log4j-kotlin,log4j-api-kotlin,2016-11-14,rocketraman@gmail.com
+log4j-tools,log4j-tools-bom,2024-04-29,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-04-22,volkan@yazi.ci
 log4j-tools,log4j-tools-bom,2024-04-22,volkan@yazi.ci
 log4j-tools,log4j-tools-bom,2024-04-19,volkan@yazi.ci
@@ -932,6 +933,7 @@ log4j-tools,log4j-docgen-asciidoctor-extension,2024-03-15,volkan@yazi.ci
 log4j-tools,log4j-docgen-asciidoctor-extension,2024-03-15,volkan@yazi.ci
 log4j-tools,log4j-docgen-asciidoctor-extension,2024-03-15,volkan@yazi.ci
 log4j-tools,log4j-docgen-asciidoctor-extension,2024-03-13,volkan@yazi.ci
+log4j-tools,log4j-tools-parent,2024-04-29,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-04-09,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-04-04,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-03-29,private@logging.apache.org
@@ -1832,6 +1834,14 @@ log4j-2,log4j-iostreams,2014-09-03,garydgregory@gmail.com
 log4j-2,log4j-iostreams,2014-09-03,garydgregory@gmail.com
 log4j-2,log4j-iostreams,2014-09-03,mattsicker@apache.org
 log4j-2,log4j-iostreams,2014-09-03,mattsicker@apache.org
+log4j-2,log4j-bom,2024-04-30,volkan@yazi.ci
+log4j-2,log4j-bom,2024-04-30,volkan@yazi.ci
+log4j-2,log4j-bom,2024-04-29,private@logging.apache.org
+log4j-2,log4j-bom,2024-04-29,private@logging.apache.org
+log4j-2,log4j-bom,2024-04-29,private@logging.apache.org
+log4j-2,log4j-bom,2024-04-29,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-04-29,volkan@yazi.ci
+log4j-2,log4j-bom,2024-04-29,volkan@yazi.ci
 log4j-2,log4j-bom,2024-04-27,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-04-26,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-04-18,piotr.github@karwasz.org
@@ -16505,6 +16515,7 @@ log4j-2,log4j-jcl,2013-12-05,ggregory@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-08-26,ggregory@apache.org
+log4j-2,log4j-core-test,2024-04-29,volkan@yazi.ci
 log4j-2,log4j-core-test,2024-04-26,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-04-17,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-04-26,piotr.github@karwasz.org
@@ -17833,6 +17844,9 @@ log4j-2,log4j-layout-template-json,2020-11-06,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-11-03,rgoers@apache.org
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
+log4j-2,log4j,2024-04-29,private@logging.apache.org
+log4j-2,log4j,2024-04-29,private@logging.apache.org
+log4j-2,log4j,2024-04-29,private@logging.apache.org
 log4j-2,log4j,2024-04-18,private@logging.apache.org
 log4j-2,log4j,2024-04-18,private@logging.apache.org
 log4j-2,log4j,2024-04-18,private@logging.apache.org
@@ -17983,6 +17997,8 @@ log4j-2,log4j,2023-10-11,volkan@yazi.ci
 log4j-2,log4j,2023-10-11,volkan@yazi.ci
 log4j-2,log4j,2023-10-06,volkan@yazi.ci
 log4j-2,log4j,2023-10-05,volkan@yazi.ci
+log4j-2,log4j-core,2024-04-29,volkan@yazi.ci
+log4j-2,log4j-core,2024-04-29,volkan@yazi.ci
 log4j-2,log4j-core,2024-04-26,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-04-17,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-04-26,piotr.github@karwasz.org
@@ -25782,6 +25798,7 @@ log4j-2,log4j-jpa,2018-01-28,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-26,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-14,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-27,garydgregory@gmail.com
+log4j-2,log4j-api,2024-04-29,volkan@yazi.ci
 log4j-2,log4j-api,2024-04-26,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-04-26,volkan@yazi.ci
 log4j-2,log4j-api,2024-04-26,volkan@yazi.ci
@@ -27881,6 +27898,9 @@ log4j-jmx-gui,log4j-jmx-gui,2014-02-02,rpopma@unknown
 log4j-jmx-gui,log4j-jmx-gui,2013-09-14,rgoers@apache.org
 log4j-jmx-gui,log4j-jmx-gui,2013-09-14,rgoers@apache.org
 log4j-jmx-gui,log4j-jmx-gui,2013-08-26,ggregory@apache.org
+log4cxx,*,2024-04-30,stephen.webb@ieee.org
+log4cxx,*,2024-04-29,stephen.webb@ieee.org
+log4cxx,*,2024-04-29,stephen.webb@ieee.org
 log4cxx,*,2024-04-27,stephen.webb@ieee.org
 log4cxx,*,2024-04-27,stephen.webb@ieee.org
 log4cxx,*,2024-04-25,stephen.webb@ieee.org
