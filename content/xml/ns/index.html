@@ -152,21 +152,19 @@ Following schemas model the Log4j runtime configuration, i.e., <code>log4j2.xml<
 <div class="title">Example Log4j 2 schema usage</div>
 <div class="content">
 <pre class="highlight"><code class="language-xml" data-lang="xml">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xmlns="https://logging.apache.org/xml/ns"
-               xsi:schemaLocation="
-                       https://logging.apache.org/xml/ns
-                       https://logging.apache.org/xml/ns/log4j-config-2.xsd"&gt;
-  &lt;appenders&gt;
+&lt;Configuration xmlns="https://logging.apache.org/xml/ns"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://logging.apache.org/xml/ns https://logging.apache.org/xml/ns/log4j-config-2.xsd"&gt;
+  &lt;Appenders&gt;
     &lt;Console name="Console" target="SYSTEM_OUT"&gt;
       &lt;PatternLayout pattern="%d [%t] %p %c - %m%n"/&gt;
     &lt;/Console&gt;
-  &lt;/appenders&gt;
-  &lt;loggers&gt;
-    &lt;root level="WARN"&gt;
+  &lt;/Appenders&gt;
+  &lt;Loggers&gt;
+    &lt;Root level="WARN"&gt;
       &lt;AppenderRef ref="Console"/&gt;
-    &lt;/root&gt;
-  &lt;/loggers&gt;
+    &lt;/Root&gt;
+  &lt;/Loggers&gt;
 &lt;/Configuration&gt;</code></pre>
 </div>
 </div>
