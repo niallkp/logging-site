@@ -5923,6 +5923,8 @@ log4j-2,log4j-mongodb4,2020-08-02,boards@gmail.com
 log4j-2,log4j-mongodb4,2020-08-02,boards@gmail.com
 log4j-2,log4j-mongodb4,2020-05-23,gardgregory@gmail.com
 log4j-2,log4j-mongodb4,2020-05-21,gardgregory@gmail.com
+log4j-2,log4j,2024-06-01,private@logging.apache.org
+log4j-2,log4j,2024-06-01,private@logging.apache.org
 log4j-2,log4j,2024-05-30,private@logging.apache.org
 log4j-2,log4j,2024-05-27,private@logging.apache.org
 log4j-2,log4j,2024-05-27,private@logging.apache.org
@@ -6800,6 +6802,8 @@ log4j-2,log4j-api-test,2022-09-18,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-23,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-06-01,private@logging.apache.org
+log4j-2,log4j-bom,2024-06-01,private@logging.apache.org
 log4j-2,log4j-bom,2024-05-31,garydgregory@gmail.com
 log4j-2,log4j-bom,2024-05-31,volkan@yazi.ci
 log4j-2,log4j-bom,2024-05-30,garydgregory@gmail.com
