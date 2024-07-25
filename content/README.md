@@ -1,6 +1,8 @@
 # The Apache Software Foundation - Logging Website
 
 This is the source code for the website at [logging.apache.org](https://logging.apache.org).
+The staging website is at [logging.staged.apache.org](https://logging.staged.apache.org).
+The website is built using [Jekyll](https://jekyllrb.com/), a static site generator.
 
 ## Develop this website
 
@@ -15,10 +17,8 @@ $> docker build -t apache/logging_site .
 
 or run: ```./run-docker-build.sh```
 
-Whenever you change something in the Dockers dependencies, you have to recreate
-the docker image.
-
-Afterwards you are able to run the website.
+Whenever you change something in the Docker's dependencies, you have to recreate the Docker image.
+Afterwards, you can run the website.
 
 To run the website in serve mode (running a server to quickly check your code)
 you'll have to run this command:
