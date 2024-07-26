@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-07-26T20:14:41+00:00</updated><id>/feed.xml</id><title type="html">Apache Software Foundation - Logging Services</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Celebrating Two Decades of Innovation with Apache Log4j</title><link href="/blog/2023/12/18/20-years-of-innovation.html" rel="alternate" type="text/html" title="Celebrating Two Decades of Innovation with Apache Log4j" /><published>2023-12-18T00:00:00+00:00</published><updated>2023-12-18T00:00:00+00:00</updated><id>/blog/2023/12/18/20-years-of-innovation</id><content type="html" xml:base="/blog/2023/12/18/20-years-of-innovation.html"><![CDATA[<h1 id="two-decades-of-apache-log4j-a-journey-of-resilience-and-innovation">Two Decades of Apache Log4j: A Journey of Resilience and Innovation</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-07-26T20:27:21+00:00</updated><id>/feed.xml</id><title type="html">Apache Software Foundation - Logging Services</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Apache Log4j - Interview at Community Over Code 2024</title><link href="/blog/2024/07/25/Log4j-At-Community-Over-Code-2024.html" rel="alternate" type="text/html" title="Apache Log4j - Interview at Community Over Code 2024" /><published>2024-07-25T00:00:00+00:00</published><updated>2024-07-25T00:00:00+00:00</updated><id>/blog/2024/07/25/Log4j-At-Community-Over-Code-2024</id><content type="html" xml:base="/blog/2024/07/25/Log4j-At-Community-Over-Code-2024.html"><![CDATA[<h1 id="apache-log4j-at-community-over-code-2024-in-bratislava">Apache Log4j at Community Over Code 2024 in Bratislava</h1>
+
+<p>On July 25, 2024, Apache Log4j was featured at the Community Over Code conference in Bratislava.
+Matt Sicker and Piotr Karwasz, two of the project’s key contributors, shared insights into the history and future of Log4j.</p>
+
+<p>If you are interested in what we learned about security and how we want to 
+improve Log4j further, please watch the full interview done by Rich Bowen for
+the ASF.</p>
+
+<div class="youtube-placeholder yt-container-Hpe7p24DQo0" style="cursor: pointer;">
+  <img src="/img/video-placeholders/Hpe7p24DQo0.jpg" alt="Video thumbnail" />
+</div>
+<div class="youtube-placeholder-description">
+  Clicking on this image will load the video and send data from and to YouTube/Google.
+</div>
+<style>
+  .youtube-placeholder {
+    width: 560px; 
+    height: auto;
+  }
+  .youtube-placeholder-description {
+    color: gray;
+    font-style: italic;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var container = document.querySelector('.yt-container-Hpe7p24DQo0');
+    function addElement() {
+      var iframe = document.createElement('iframe');
+      iframe.setAttribute('width', '560');
+      iframe.setAttribute('height', '315');
+      iframe.setAttribute('src', 'https://www.youtube-nocookie.com/embed/Hpe7p24DQo0?autoplay=1');
+      iframe.setAttribute('title', 'YouTube video player');
+      iframe.setAttribute('frameborder', '0');
+      iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
+      iframe.setAttribute('allowfullscreen', '');
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }
+    container.addEventListener('click', addElement);
+  });
+</script>]]></content><author><name></name></author><category term="Apache Log4j" /><category term="Anniversary" /><category term="Open Source" /><category term="Community" /><summary type="html"><![CDATA[Piotr Karwasz and Matt Sicker discuss the history and future of Apache Log4j at the Community Over Code conference.]]></summary></entry><entry><title type="html">Celebrating Two Decades of Innovation with Apache Log4j</title><link href="/blog/2023/12/18/20-years-of-innovation.html" rel="alternate" type="text/html" title="Celebrating Two Decades of Innovation with Apache Log4j" /><published>2023-12-18T00:00:00+00:00</published><updated>2023-12-18T00:00:00+00:00</updated><id>/blog/2023/12/18/20-years-of-innovation</id><content type="html" xml:base="/blog/2023/12/18/20-years-of-innovation.html"><![CDATA[<h1 id="two-decades-of-apache-log4j-a-journey-of-resilience-and-innovation">Two Decades of Apache Log4j: A Journey of Resilience and Innovation</h1>
 
 <p>Today, December 17, 2023 marks a significant milestone for the Apache Logging Services project, 
 as we celebrate 20 years since the inception of Log4j 1. 
