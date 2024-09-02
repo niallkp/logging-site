@@ -1960,6 +1960,7 @@ log4j-2,log4j-api-test,2022-09-18,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-23,piotr.github@karwasz.org
+log4j-2,log4j-core-test,2024-09-01,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-06-21,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2023-09-04,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-06-28,piotr.github@karwasz.org
@@ -2460,6 +2461,7 @@ log4j-2,log4j-couchdb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-couchdb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-couchdb,2017-10-19,mikael@staldal.nu
 log4j-2,log4j-couchdb,2017-10-17,mikael@staldal.nu
+log4j-2,log4j-bom,2024-09-01,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-08-30,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-08-31,volkan@yazi.ci
 log4j-2,log4j-bom,2024-08-30,pportnov@ozon.ru
