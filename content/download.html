@@ -131,7 +131,7 @@ You are strongly advised to <strong>check the installation instructions in the w
 <div class="sectionbody">
 <div class="paragraph">
 <p>All Logging Services release distributions are digitally signed by the release manager and provided with checksum files.
-You can verify a distribution by following the below shared instructions:</p>
+You can verify a distribution by following the below shared Linux/macOS instructions:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -139,11 +139,38 @@ You can verify a distribution by following the below shared instructions:</p>
 wget -O - https://downloads.apache.org/logging/KEYS | gpg --import
 
 # Verify signatures
-for sigFile in *.asc; do gpg --verify $sigFile; done
+for sigFile in *.asc; do gpg --verify $sigFile ${sigFile%.asc}; done
 
 # Verify checksums
 shasum --check *.sha512</code></pre>
 </div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Windows users need to</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Manually download the file at the <code>wget</code> step</p>
+</li>
+<li>
+<p>Manually unroll the <code>for</code> loop</p>
+</li>
+<li>
+<p>Use <code>certUtil -hashfile &lt;FILE&gt; SHA512</code> instead of <code>shasum</code></p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
