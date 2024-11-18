@@ -6346,6 +6346,7 @@ log4j-jmx-gui,log4j-jmx-gui,2014-02-02,rpopma@unknown
 log4j-jmx-gui,log4j-jmx-gui,2013-09-14,rgoers@apache.org
 log4j-jmx-gui,log4j-jmx-gui,2013-09-14,rgoers@apache.org
 log4j-jmx-gui,log4j-jmx-gui,2013-08-26,ggregory@apache.org
+log4net,*,2024-11-15,grzegorz@dziadkiewicz.com
 log4net,*,2024-11-07,freeandnil@apache.org
 log4net,*,2024-11-04,freeandnil@apache.org
 log4net,*,2024-11-04,freeandnil@apache.org
@@ -8121,6 +8122,11 @@ log4j-2,log4j-layout-template-json,2020-11-06,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-11-03,rgoers@apache.org
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
+log4j-2,log4j-bom,2024-11-17,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-11-15,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-11-13,private@logging.apache.org
+log4j-2,log4j-bom,2024-11-13,private@logging.apache.org
+log4j-2,log4j-bom,2024-11-12,jacoba@neighbourhood.ie
 log4j-2,log4j-bom,2024-11-08,private@logging.apache.org
 log4j-2,log4j-bom,2024-11-08,private@logging.apache.org
 log4j-2,log4j-bom,2024-11-08,private@logging.apache.org
@@ -22578,6 +22584,7 @@ log4j-2,log4j-jcl,2013-12-05,ggregory@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-08-26,ggregory@apache.org
+log4j-2,log4j,2024-11-13,private@logging.apache.org
 log4j-2,log4j,2024-11-08,private@logging.apache.org
 log4j-2,log4j,2024-11-08,private@logging.apache.org
 log4j-2,log4j,2024-11-07,private@logging.apache.org
@@ -23177,6 +23184,7 @@ log4j-2,log4j-slf4j-impl,2013-09-10,ggregory@apache.org
 log4j-2,log4j-slf4j-impl,2013-09-10,ggregory@apache.org
 log4j-2,log4j-slf4j-impl,2013-09-05,rgoers@apache.org
 log4j-2,log4j-slf4j-impl,2013-08-26,ggregory@apache.org
+log4j-2,log4j-to-jul,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-to-jul,2024-09-17,volkan@yazi.ci
 log4j-2,log4j-to-jul,2024-09-16,volkan@yazi.ci
 log4j-2,log4j-to-jul,2024-09-08,piotr.github@karwasz.org
@@ -23345,6 +23353,7 @@ log4j-2,log4j-spring-boot,2020-08-02,boards@gmail.com
 log4j-2,log4j-spring-boot,2020-08-15,rgoers@apache.org
 log4j-2,log4j-spring-boot,2020-08-15,rgoers@apache.org
 log4j-2,log4j-spring-boot,2020-08-12,rgoers@apache.org
+log4j-2,log4j-taglib,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-taglib,2024-10-09,volkan@yazi.ci
 log4j-2,log4j-taglib,2024-10-02,alan0428a@gmail.com
 log4j-2,log4j-taglib,2024-09-17,volkan@yazi.ci
@@ -24078,6 +24087,7 @@ log4j-2,log4j-spring-cloud-config-client,2024-09-19,private@logging.apache.org
 log4j-2,log4j-spring-cloud-config-client,2024-01-04,piotr.github@karwasz.org
 log4j-2,log4j-spring-cloud-config-client,2023-12-19,private@logging.apache.org
 log4j-2,log4j-spring-cloud-config-client,2023-11-27,volkan@yazi.ci
+log4j-2,log4j-to-slf4j,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-to-slf4j,2024-10-03,julia.kruger@snyk.io
 log4j-2,log4j-to-slf4j,2024-09-17,volkan@yazi.ci
 log4j-2,log4j-to-slf4j,2024-09-16,volkan@yazi.ci
@@ -24537,6 +24547,8 @@ log4j-2,log4j-mongodb4,2020-08-02,boards@gmail.com
 log4j-2,log4j-mongodb4,2020-08-02,boards@gmail.com
 log4j-2,log4j-mongodb4,2020-05-23,gardgregory@gmail.com
 log4j-2,log4j-mongodb4,2020-05-21,gardgregory@gmail.com
+log4j-2,log4j-1.2-api,2024-11-17,piotr.github@karwasz.org
+log4j-2,log4j-1.2-api,2024-11-12,jacoba@neighbourhood.ie
 log4j-2,log4j-1.2-api,2024-11-03,piotr.github@karwasz.org
 log4j-2,log4j-1.2-api,2024-11-01,garydgregory@gmail.com
 log4j-2,log4j-1.2-api,2024-10-14,jonas.rutishauser@alumni.ethz.ch
@@ -25545,6 +25557,7 @@ log4j-2,log4j-web,2014-05-10,rgoers@apache.org
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
+log4j-2,log4j-api,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-11-03,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-10-31,volkan@yazi.ci
 log4j-2,log4j-api,2024-10-10,volkan@yazi.ci
@@ -27257,6 +27270,7 @@ log4j-2,log4j-api,2013-09-03,ggregory@apache.org
 log4j-2,log4j-api,2013-08-26,rpopma@unknown
 log4j-2,log4j-api,2013-08-26,rpopma@unknown
 log4j-2,log4j-api,2013-08-26,ggregory@apache.org
+log4j-2,log4j-api-test,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2024-11-03,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2024-10-10,volkan@yazi.ci
 log4j-2,log4j-api-test,2024-10-10,piotr.github@karwasz.org
@@ -28405,6 +28419,8 @@ log4j-2,log4j-jpa,2018-01-28,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-26,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-14,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-27,garydgregory@gmail.com
+log4j-2,log4j-core,2024-11-17,piotr.github@karwasz.org
+log4j-2,log4j-core,2024-11-15,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-11-05,garydgregory@gmail.com
 log4j-2,log4j-core,2024-11-03,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-11-03,jeff.w.thomas@outlook.com
@@ -34173,6 +34189,7 @@ log4j-2,log4j-core,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-core,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-core,2013-08-27,rpopma@unknown
 log4j-2,log4j-core,2013-08-26,ggregory@apache.org
+log4j-2,log4j-core-test,2024-11-17,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-11-03,jeff.w.thomas@outlook.com
 log4j-2,log4j-core-test,2024-11-03,alan0428a@gmail.com
 log4j-2,log4j-core-test,2024-11-01,garydgregory@gmail.com
@@ -35196,6 +35213,7 @@ log4j-tools,log4j-tools-internal-freemarker-util,2024-05-08,volkan@yazi.ci
 log4j-tools,log4j-tools-internal-freemarker-util,2024-05-08,volkan@yazi.ci
 log4j-tools,log4j-tools-internal-freemarker-util,2024-03-21,volkan@yazi.ci
 log4j-tools,log4j-tools-internal-freemarker-util,2024-02-15,volkan@yazi.ci
+log4j-tools,log4j-tools-bom,2024-11-12,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-10-28,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-10-22,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-10-07,private@logging.apache.org
@@ -35810,6 +35828,7 @@ log4j-tools,log4j-changelog,2022-12-12,volkan@yazi.ci
 log4j-tools,log4j-changelog,2022-12-12,volkan@yazi.ci
 log4j-tools,log4j-changelog,2022-12-11,volkan@yazi.ci
 log4j-tools,log4j-changelog,2022-12-01,volkan@yazi.ci
+log4j-tools,log4j-docgen,2024-11-12,private@logging.apache.org
 log4j-tools,log4j-docgen,2024-09-30,private@logging.apache.org
 log4j-tools,log4j-docgen,2024-09-09,private@logging.apache.org
 log4j-tools,log4j-docgen,2024-06-12,piotr.github@karwasz.org
