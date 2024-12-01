@@ -1,4 +1,9 @@
 project,module,instant,author
+log4cxx,*,2024-11-28,stephen.webb@ieee.org
+log4cxx,*,2024-11-28,stephen.webb@ieee.org
+log4cxx,*,2024-11-28,stephen.webb@ieee.org
+log4cxx,*,2024-11-28,stephen.webb@ieee.org
+log4cxx,*,2024-11-25,stephen.webb@ieee.org
 log4cxx,*,2024-11-20,stephen.webb@ieee.org
 log4cxx,*,2024-11-19,stephen.webb@ieee.org
 log4cxx,*,2024-11-08,stephen.webb@ieee.org
@@ -3802,9 +3807,13 @@ log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-11-16,ceki@apache.org
+log4j-transform,log4j-codegen,2024-11-27,piotr.github@karwasz.org
 log4j-transform,log4j-codegen,2024-11-07,piotr.github@karwasz.org
 log4j-transform,log4j-codegen,2024-10-18,private@logging.apache.org
 log4j-transform,log4j-codegen,2024-04-01,piotr.github@karwasz.org
+log4j-transform,log4j-transform-bom,2024-11-28,private@logging.apache.org
+log4j-transform,log4j-transform-bom,2024-11-27,piotr.github@karwasz.org
+log4j-transform,log4j-transform-bom,2024-11-27,piotr.github@karwasz.org
 log4j-transform,log4j-transform-bom,2024-11-22,private@logging.apache.org
 log4j-transform,log4j-transform-bom,2024-11-20,private@logging.apache.org
 log4j-transform,log4j-transform-bom,2024-11-07,private@logging.apache.org
@@ -4101,6 +4110,7 @@ log4j-transform,log4j-transform-bom,2023-01-11,edwgiz@gmail.com
 log4j-transform,log4j-transform-bom,2023-01-08,piotr.github@karwasz.org
 log4j-transform,log4j-transform-bom,2023-01-08,piotr.github@karwasz.org
 log4j-transform,log4j-transform-bom,2023-01-06,piotr.github@karwasz.org
+log4j-transform,log4j-transform-parent,2024-11-27,piotr.github@karwasz.org
 log4j-transform,log4j-transform-parent,2024-11-22,private@logging.apache.org
 log4j-transform,log4j-transform-parent,2024-11-20,private@logging.apache.org
 log4j-transform,log4j-transform-parent,2024-11-07,private@logging.apache.org
@@ -4202,6 +4212,7 @@ log4j-transform,log4j-transform-parent,2023-01-11,piotr.github@karwasz.org
 log4j-transform,log4j-transform-parent,2023-01-11,edwgiz@gmail.com
 log4j-transform,log4j-transform-parent,2023-01-08,piotr.github@karwasz.org
 log4j-transform,log4j-transform-parent,2023-01-06,piotr.github@karwasz.org
+log4j-transform,log4j-converter-plugin-descriptor,2024-11-28,private@logging.apache.org
 log4j-transform,log4j-converter-plugin-descriptor,2024-11-07,private@logging.apache.org
 log4j-transform,log4j-converter-plugin-descriptor,2024-11-07,piotr.github@karwasz.org
 log4j-transform,log4j-transform-maven-shade-plugin-extensions,2024-05-31,private@logging.apache.org
@@ -4223,6 +4234,7 @@ log4j-transform,log4j-transform-maven-shade-plugin-extensions,2023-04-27,piotr.g
 log4j-transform,log4j-transform-maven-shade-plugin-extensions,2023-04-27,robots@logging.apache.org
 log4j-transform,log4j-transform-maven-shade-plugin-extensions,2023-02-04,49699333+dependabot[bot]@users.noreply.github.com
 log4j-transform,log4j-transform-maven-shade-plugin-extensions,2023-01-11,edwgiz@gmail.com
+log4j-transform,log4j-weaver,2024-11-27,piotr.github@karwasz.org
 log4j-transform,log4j-weaver,2024-04-22,volkan@yazi.ci
 log4j-transform,log4j-weaver,2023-12-18,piotr.github@karwasz.org
 log4j-transform,log4j-weaver,2023-12-04,robots@logging.apache.org
@@ -4235,6 +4247,8 @@ log4j-transform,log4j-weaver,2023-04-28,piotr.github@karwasz.org
 log4j-transform,log4j-weaver,2023-04-27,robots@logging.apache.org
 log4j-transform,log4j-weaver,2023-02-25,piotr.github@karwasz.org
 log4j-transform,log4j-weaver,2023-01-08,piotr.github@karwasz.org
+log4j-transform,log4j-converter-config,2024-11-27,piotr.github@karwasz.org
+log4j-transform,log4j-converter-config,2024-11-27,piotr.github@karwasz.org
 log4j-transform,log4j-transform-maven-plugin,2024-10-15,rgoers@apache.org
 log4j-transform,log4j-transform-maven-plugin,2024-01-15,piotr.github@karwasz.org
 log4j-transform,log4j-transform-maven-plugin,2023-12-04,robots@logging.apache.org
@@ -8131,6 +8145,11 @@ log4j-2,log4j-layout-template-json,2020-11-06,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-11-03,rgoers@apache.org
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
+log4j-2,log4j-bom,2024-11-28,32147410+jaykataria1111@users.noreply.github.com
+log4j-2,log4j-bom,2024-11-28,garydgregory@gmail.com
+log4j-2,log4j-bom,2024-11-28,private@logging.apache.org
+log4j-2,log4j-bom,2024-11-27,private@logging.apache.org
+log4j-2,log4j-bom,2024-11-25,private@logging.apache.org
 log4j-2,log4j-bom,2024-11-23,private@logging.apache.org
 log4j-2,log4j-bom,2024-11-22,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-11-22,8304181+king-tyler@users.noreply.github.com
@@ -22606,6 +22625,8 @@ log4j-2,log4j-jcl,2013-12-05,ggregory@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-08-26,ggregory@apache.org
+log4j-2,log4j,2024-11-28,private@logging.apache.org
+log4j-2,log4j,2024-11-25,private@logging.apache.org
 log4j-2,log4j,2024-11-20,private@logging.apache.org
 log4j-2,log4j,2024-11-13,private@logging.apache.org
 log4j-2,log4j,2024-11-08,private@logging.apache.org
@@ -24105,6 +24126,7 @@ log4j-2,log4j-appserver,2017-10-08,rgoers@nextiva.com
 log4j-2,log4j-appserver,2017-09-17,rgoers@nextiva.com
 log4j-2,log4j-appserver,2017-09-17,rgoers@nextiva.com
 log4j-2,log4j-appserver,2017-09-11,rgoers@nextiva.com
+log4j-2,log4j-spring-cloud-config-client,2024-11-27,private@logging.apache.org
 log4j-2,log4j-spring-cloud-config-client,2024-09-20,private@logging.apache.org
 log4j-2,log4j-spring-cloud-config-client,2024-09-19,private@logging.apache.org
 log4j-2,log4j-spring-cloud-config-client,2024-01-04,piotr.github@karwasz.org
@@ -25264,6 +25286,7 @@ log4j-2,log4j-1.2-api,2013-09-14,rgoers@apache.org
 log4j-2,log4j-1.2-api,2013-09-13,ggregory@apache.org
 log4j-2,log4j-1.2-api,2013-08-26,rgoers@apache.org
 log4j-2,log4j-1.2-api,2013-08-26,ggregory@apache.org
+log4j-2,log4j-web,2024-11-28,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-web,2024-09-07,piotr.github@karwasz.org
 log4j-2,log4j-web,2024-07-17,piotr.github@karwasz.org
 log4j-2,log4j-web,2024-03-26,volkan@yazi.ci
@@ -25580,6 +25603,7 @@ log4j-2,log4j-web,2014-05-10,rgoers@apache.org
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
 log4j-2,log4j-web,2014-05-04,mattsicker@unknown
+log4j-2,log4j-api,2024-11-28,garydgregory@gmail.com
 log4j-2,log4j-api,2024-11-22,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-11-21,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-11-18,piotr.github@karwasz.org
@@ -27887,6 +27911,7 @@ log4j-2,log4j-jul,2014-09-07,mattsicker@apache.org
 log4j-2,log4j-jul,2014-09-07,mattsicker@apache.org
 log4j-2,log4j-jul,2014-09-07,mattsicker@apache.org
 log4j-2,log4j-jul,2014-09-02,mattsicker@apache.org
+log4j-2,log4j-jakarta-web,2024-11-28,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-jakarta-web,2024-09-07,piotr.github@karwasz.org
 log4j-2,log4j-jakarta-web,2024-07-17,piotr.github@karwasz.org
 log4j-2,log4j-jakarta-web,2024-07-11,piotr.github@karwasz.org
@@ -28451,6 +28476,7 @@ log4j-2,log4j-jpa,2018-01-28,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-26,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-14,rpopma@apache.org
 log4j-2,log4j-jpa,2018-01-27,garydgregory@gmail.com
+log4j-2,log4j-core,2024-11-28,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core,2024-11-22,8304181+king-tyler@users.noreply.github.com
 log4j-2,log4j-core,2024-11-21,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-11-18,piotr.github@karwasz.org
@@ -34224,6 +34250,7 @@ log4j-2,log4j-core,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-core,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-core,2013-08-27,rpopma@unknown
 log4j-2,log4j-core,2013-08-26,ggregory@apache.org
+log4j-2,log4j-core-test,2024-11-28,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core-test,2024-11-22,8304181+king-tyler@users.noreply.github.com
 log4j-2,log4j-core-test,2024-11-17,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-11-03,jeff.w.thomas@outlook.com
