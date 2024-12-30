@@ -2716,6 +2716,7 @@ log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-12-14,ceki@apache.org
 log4j-1,log4j,2000-11-16,ceki@apache.org
+log4j-tools,log4j-tools-bom,2024-12-23,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-12-20,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-12-17,private@logging.apache.org
 log4j-tools,log4j-tools-bom,2024-12-16,private@logging.apache.org
@@ -3469,6 +3470,7 @@ log4j-tools,log4j-docgen,2023-12-21,volkan@yazi.ci
 log4j-tools,log4j-docgen,2023-12-21,piotr.github@karwasz.org
 log4j-tools,log4j-docgen,2023-12-20,piotr.github@karwasz.org
 log4j-tools,log4j-docgen,2023-12-20,piotr.github@karwasz.org
+log4j-tools,log4j-tools-parent,2024-12-23,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-12-20,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-12-17,private@logging.apache.org
 log4j-tools,log4j-tools-parent,2024-11-20,private@logging.apache.org
@@ -4926,6 +4928,8 @@ log4j-2,log4j-jcl,2013-12-05,ggregory@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-08-26,ggregory@apache.org
+log4j-2,log4j,2024-12-26,private@logging.apache.org
+log4j-2,log4j,2024-12-23,private@logging.apache.org
 log4j-2,log4j,2024-12-17,private@logging.apache.org
 log4j-2,log4j,2024-12-17,private@logging.apache.org
 log4j-2,log4j,2024-12-16,private@logging.apache.org
@@ -5462,6 +5466,11 @@ log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-taglib,2013-08-26,ggregory@apache.org
+log4j-2,log4j-bom,2024-12-26,cg@grobmeier.de
+log4j-2,log4j-bom,2024-12-26,cg@grobmeier.de
+log4j-2,log4j-bom,2024-12-26,private@logging.apache.org
+log4j-2,log4j-bom,2024-12-23,private@logging.apache.org
+log4j-2,log4j-bom,2024-12-23,private@logging.apache.org
 log4j-2,log4j-bom,2024-12-19,private@logging.apache.org
 log4j-2,log4j-bom,2024-12-17,private@logging.apache.org
 log4j-2,log4j-bom,2024-12-17,private@logging.apache.org
@@ -31259,6 +31268,7 @@ log4j-2,log4j-layout-template-json,2020-11-06,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-11-03,rgoers@apache.org
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
 log4j-2,log4j-layout-template-json,2020-08-25,volkan.yazici@gmail.com
+log4j-jmx-gui,log4j-jmx-gui,2024-12-26,private@logging.apache.org
 log4j-jmx-gui,log4j-jmx-gui,2024-12-16,private@logging.apache.org
 log4j-jmx-gui,log4j-jmx-gui,2024-12-13,private@logging.apache.org
 log4j-jmx-gui,log4j-jmx-gui,2024-11-22,private@logging.apache.org
