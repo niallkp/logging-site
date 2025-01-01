@@ -5466,6 +5466,11 @@ log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-taglib,2013-08-26,ggregory@apache.org
+log4j-2,log4j-bom,2024-12-31,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-12-30,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-12-30,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-12-30,piotr.github@karwasz.org
+log4j-2,log4j-bom,2024-12-30,piotr.github@karwasz.org
 log4j-2,log4j-bom,2024-12-26,cg@grobmeier.de
 log4j-2,log4j-bom,2024-12-26,cg@grobmeier.de
 log4j-2,log4j-bom,2024-12-26,private@logging.apache.org
@@ -21690,6 +21695,7 @@ log4j-2,log4j-to-jul,2022-01-16,vorburger@apache.org
 log4j-2,log4j-to-jul,2022-01-15,vorburger@apache.org
 log4j-2,log4j-to-jul,2022-01-15,vorburger@apache.org
 log4j-2,log4j-to-jul,2022-01-07,vorburger@apache.org
+log4j-2,log4j-core-test,2024-12-31,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-12-13,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-12-09,piotr.github@karwasz.org
 log4j-2,log4j-core-test,2024-12-09,piotr.github@karwasz.org
@@ -22313,6 +22319,7 @@ log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-07,rgoers@apache.org
+log4j-2,log4j-api,2024-12-30,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-12-13,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-12-09,piotr.github@karwasz.org
 log4j-2,log4j-api,2024-11-24,piotr.github@karwasz.org
@@ -24715,6 +24722,7 @@ log4j-2,log4j-mongodb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-mongodb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-mongodb,2017-10-19,mikael@staldal.nu
 log4j-2,log4j-mongodb,2017-10-17,mikael@staldal.nu
+log4j-2,log4j-core,2024-12-31,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-12-13,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-09-30,piotr.github@karwasz.org
 log4j-2,log4j-core,2024-12-09,piotr.github@karwasz.org
