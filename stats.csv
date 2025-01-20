@@ -4936,6 +4936,9 @@ log4j-2,log4j-jcl,2013-12-05,ggregory@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-09-14,rgoers@apache.org
 log4j-2,log4j-jcl,2013-08-26,ggregory@apache.org
+log4j-2,log4j,2025-01-14,volkan@yazi.ci
+log4j-2,log4j,2025-01-13,private@logging.apache.org
+log4j-2,log4j,2025-01-13,private@logging.apache.org
 log4j-2,log4j,2025-01-06,49699333+dependabot[bot]@users.noreply.github.com
 log4j-2,log4j,2025-01-03,private@logging.apache.org
 log4j-2,log4j,2025-01-02,private@logging.apache.org
@@ -5477,6 +5480,13 @@ log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-09-14,rgoers@apache.org
 log4j-2,log4j-taglib,2013-08-31,nickwilliams@unknown
 log4j-2,log4j-taglib,2013-08-26,ggregory@apache.org
+log4j-2,log4j-bom,2025-01-15,private@logging.apache.org
+log4j-2,log4j-bom,2025-01-14,volkan@yazi.ci
+log4j-2,log4j-bom,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
+log4j-2,log4j-bom,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
+log4j-2,log4j-bom,2025-01-13,private@logging.apache.org
+log4j-2,log4j-bom,2025-01-13,private@logging.apache.org
+log4j-2,log4j-bom,2025-01-13,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-10,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-08,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-08,private@logging.apache.org
@@ -24751,6 +24761,8 @@ log4j-2,log4j-mongodb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-mongodb,2017-11-19,ralph.goers@dslextreme.com
 log4j-2,log4j-mongodb,2017-10-19,mikael@staldal.nu
 log4j-2,log4j-mongodb,2017-10-17,mikael@staldal.nu
+log4j-2,log4j-core,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
+log4j-2,log4j-core,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core,2025-01-08,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core,2025-01-06,39670005+eldwrjwt@users.noreply.github.com
 log4j-2,log4j-core,2025-01-06,39670005+eldwrjwt@users.noreply.github.com
@@ -32394,6 +32406,12 @@ log4j-audit,log4j-audit-api,2017-11-11,rgoers@apache.org
 log4j-audit,log4j-audit-api,2017-10-08,rgoers@nextiva.com
 log4j-audit,log4j-audit-api,2017-09-06,rgoers@nextiva.com
 log4j-audit,log4j-audit-api,2017-09-02,rgoers@nextiva.com
+log4cxx,*,2025-01-17,stephen.webb@ieee.org
+log4cxx,*,2025-01-17,44787359+AdamKorcz@users.noreply.github.com
+log4cxx,*,2025-01-17,stephen.webb@ieee.org
+log4cxx,*,2025-01-17,stephen.webb@ieee.org
+log4cxx,*,2025-01-15,stephen.webb@ieee.org
+log4cxx,*,2025-01-14,stephen.webb@ieee.org
 log4cxx,*,2025-01-12,stephen.webb@ieee.org
 log4cxx,*,2024-12-22,stephen.webb@ieee.org
 log4cxx,*,2024-12-19,stephen.webb@ieee.org
