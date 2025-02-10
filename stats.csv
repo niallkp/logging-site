@@ -1,4 +1,11 @@
 project,module,instant,author
+log4net,*,2025-02-07,freeandnil@apache.org
+log4net,*,2025-02-06,freeandnil@apache.org
+log4net,*,2025-02-06,43271715+FreeAndNil@users.noreply.github.com
+log4net,*,2025-02-06,freeandnil@apache.org
+log4net,*,2025-02-05,freeandnil@apache.org
+log4net,*,2025-02-05,freeandnil@apache.org
+log4net,*,2025-02-04,freeandnil@apache.org
 log4net,*,2024-12-19,o.titomyr@gmail.com
 log4net,*,2024-12-14,grzegorz@dziadkiewicz.com
 log4net,*,2024-11-15,grzegorz@dziadkiewicz.com
@@ -2852,6 +2859,10 @@ log4j-tools,log4j-docgen-maven-plugin,2024-02-16,volkan@yazi.ci
 log4j-tools,log4j-docgen-maven-plugin,2024-02-15,volkan@yazi.ci
 log4j-tools,log4j-docgen-maven-plugin,2024-02-15,volkan@yazi.ci
 log4j-tools,log4j-docgen-maven-plugin,2024-02-15,volkan@yazi.ci
+log4cxx,*,2025-02-07,stephen.webb@ieee.org
+log4cxx,*,2025-02-05,stephen.webb@ieee.org
+log4cxx,*,2025-02-05,stephen.webb@ieee.org
+log4cxx,*,2025-02-04,stephen.webb@ieee.org
 log4cxx,*,2025-02-02,rm5248@users.noreply.github.com
 log4cxx,*,2025-02-02,rm5248@users.noreply.github.com
 log4cxx,*,2025-02-02,rm5248@users.noreply.github.com
@@ -5477,6 +5488,7 @@ log4cxx,*,2003-06-09,mcatan@apache.org
 log4cxx,*,2003-06-09,mcatan@apache.org
 log4cxx,*,2003-06-09,mcatan@apache.org
 log4cxx,*,2003-06-09,no_author@no_author
+log4j-2,log4j-core,2025-02-06,piotr.github@karwasz.org
 log4j-2,log4j-core,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core,2025-01-13,32147410+jaykataria1111@users.noreply.github.com
 log4j-2,log4j-core,2025-01-08,32147410+jaykataria1111@users.noreply.github.com
@@ -12326,6 +12338,8 @@ log4j-2,log4j-api-test,2022-09-18,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-24,piotr.github@karwasz.org
 log4j-2,log4j-api-test,2022-09-23,piotr.github@karwasz.org
+log4j-2,log4j-bom,2025-02-06,piotr.github@karwasz.org
+log4j-2,log4j-bom,2025-02-04,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-30,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-28,private@logging.apache.org
 log4j-2,log4j-bom,2025-01-27,piotr.github@karwasz.org
@@ -28250,6 +28264,7 @@ log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-10,ggregory@apache.org
 log4j-2,log4j-to-slf4j,2013-01-07,rgoers@apache.org
+log4j-2,log4j,2025-02-04,private@logging.apache.org
 log4j-2,log4j,2025-01-30,private@logging.apache.org
 log4j-2,log4j,2025-01-28,private@logging.apache.org
 log4j-2,log4j,2025-01-27,private@logging.apache.org
