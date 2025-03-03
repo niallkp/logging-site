@@ -6336,6 +6336,7 @@ log4j-2,log4j-jakarta-smtp,2022-06-28,rgoers@apache.org
 log4j-2,log4j-jakarta-smtp,2022-06-28,rgoers@apache.org
 log4j-2,log4j-jakarta-smtp,2022-04-19,piotr.github@karwasz.org
 log4j-2,log4j-jakarta-smtp,2022-03-29,piotr.github@karwasz.org
+log4j-2,log4j-bom,2025-03-01,jeff.w.thomas@outlook.com
 log4j-2,log4j-bom,2025-02-28,private@logging.apache.org
 log4j-2,log4j-bom,2025-02-27,jeff.w.thomas@outlook.com
 log4j-2,log4j-bom,2025-02-26,private@logging.apache.org
@@ -22285,6 +22286,7 @@ log4j-2,log4j-docker,2019-06-23,ralph.goers@dslextreme.com
 log4j-2,log4j-docker,2019-04-04,rgoers@apache.org
 log4j-2,log4j-docker,2019-03-31,rgoers@apache.org
 log4j-2,log4j-docker,2019-03-21,rgoers@apache.org
+log4j-2,log4j-core,2025-03-01,jeff.w.thomas@outlook.com
 log4j-2,log4j-core,2025-02-27,jeff.w.thomas@outlook.com
 log4j-2,log4j-core,2025-02-19,piotr.github@karwasz.org
 log4j-2,log4j-core,2025-02-16,140749446+Suvrat1629@users.noreply.github.com
@@ -33350,6 +33352,7 @@ log4j-server,log4j-server,2017-07-26,mikael@staldal.nu
 log4j-server,log4j-server,2017-06-28,mikael@staldal.nu
 log4j-server,log4j-server,2017-04-21,mikael.staldal@magine.com
 log4j-server,log4j-server,2017-04-11,mikael.staldal@magine.com
+log4cxx,*,2025-03-01,stephen.webb@ieee.org
 log4cxx,*,2025-02-24,stephen.webb@ieee.org
 log4cxx,*,2025-02-24,stephen.webb@ieee.org
 log4cxx,*,2025-02-24,stephen.webb@ieee.org
